@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useState, useEffect, useCallback, useMemo } from "react";
+import Link from "next/link";
 import confetti from "canvas-confetti";
 import { Activity, CategoryId, OptionalFilters, Rarity } from "@/types/activity";
 import { CATEGORIES } from "@/data/categories";
@@ -639,8 +640,15 @@ export function SiteShell() {
               100% free · Tanpa akun · Tanpa paywall · Simpanan tersimpan lokal di browsermu.
             </p>
           </div>
-          <div className="text-xs font-mono font-bold text-text-muted">
-            Platform Komitmen 100% Free
+          <div className="flex flex-col sm:flex-row items-center gap-3 text-xs font-mono font-bold text-text-muted">
+            <Link
+              href="/admin"
+              className="hover:text-arcade-yellow transition-colors flex items-center gap-1 underline underline-offset-4 decoration-darkline/40 hover:decoration-arcade-yellow"
+            >
+              <span>⚙️ Kelola Misi</span>
+            </Link>
+            <span className="hidden sm:inline">•</span>
+            <span>Platform Komitmen 100% Free</span>
           </div>
         </div>
       </footer>
