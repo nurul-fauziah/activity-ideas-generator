@@ -225,7 +225,7 @@ export function SiteShell() {
   // Spin sequence trigger (with loading animation!)
   const handleStartSpin = useCallback(() => {
     if (!isMysterySelected && selectedCategories.length === 0) {
-      showToast("Pilih minimal satu koin mood terlebih dahulu!", "info");
+      showToast("Pilih minimal satu koin aktivitas terlebih dahulu!", "info");
       return;
     }
 
@@ -434,8 +434,8 @@ export function SiteShell() {
     return {
       expression: "idle",
       text: playerName
-        ? `Halo ${playerName}! Masukin koin mood kamu, lalu putar tuas mesin gacha!`
-        : "Halo! Aku Pip! Masukin koin mood kamu, lalu putar tuas mesin gacha!",
+        ? `Halo ${playerName}! Masukin koin aktivitas kamu, lalu putar tuas mesin gacha!`
+        : "Halo! Aku Pip! Masukin koin aktivitas kamu, lalu putar tuas mesin gacha!",
     };
   };
 
@@ -485,7 +485,7 @@ export function SiteShell() {
                 Putar Mesinnya, Buka Kapsulnya!
               </h1>
               <p className="text-text-muted text-sm sm:text-base max-w-lg leading-relaxed mx-auto md:mx-0">
-                Bingung mau ngapain hari ini? Masukkan koin mood kamu, putar tuas arcade, dan dapatkan misi aktivitas seru 100% bebas biaya!
+                Bingung mau ngapain hari ini? Masukkan koin aktivitas kamu, putar tuas arcade, dan dapatkan misi aktivitas seru 100% bebas biaya!
               </p>
 
               {/* Tactile Cabinet Specification Rack (Modular arcade cells, zero pills) */}
@@ -504,7 +504,7 @@ export function SiteShell() {
                       Variasi
                     </span>
                     <span className="font-mono font-black text-xs sm:text-sm text-text block">
-                      9 Mood
+                      9 Aktivitas
                     </span>
                   </div>
                   <div className="px-3.5 sm:px-4 py-2">
@@ -550,7 +550,7 @@ export function SiteShell() {
         </section>
 
         {/* 1. Coin Picker Section */}
-        <section aria-label="Pemilihan Koin Mood">
+        <section aria-label="Pemilihan Koin Aktivitas">
           <CoinPicker
             selectedCategories={selectedCategories}
             isMysterySelected={isMysterySelected}

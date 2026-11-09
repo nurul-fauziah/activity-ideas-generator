@@ -34,3 +34,9 @@ Format: tanggal, keputusan, alasan. Satu entri per keputusan non-obvious.
 
 - **2026-11-08**: Transformasi Hasil Kapsul Menjadi Pop-Up Modal di Layar Depan dengan Backdrop Blur dan Tombol Silang (X).
   *Alasan*: Mengatasi hambatan UX di mana pengguna harus menggulir (scroll) ke bawah untuk melihat hasil kartu misi. Pop-up mengapung di viewport dengan latar belakang redup/blur, tombol X di pojok kanan atas, dukungan tombol Escape, dan scroll-lock.
+
+- **2026-11-09**: Penguatan Keamanan Admin Panel (/admin & /api/admin/activities) serta Hardening Headers & Gitignore.
+  *Alasan*: Mematuhi panduan `docs/rules/security.md`. Menutup kerentanan publikasi tanpa autentikasi dengan mewajibkan header `x-admin-pin` yang diverifikasi ke environment server `ADMIN_PIN`, memvalidasi batas ukuran (max 200) dan enum/regex setiap field misi, menyembunyikan kebocoran path Windows filesystem lokal pada respons error, menambahkan CSP & cross-domain headers di `next.config.ts`, serta mengecualikan berkas `.env` dan `.env.local` pada `.gitignore`.
+
+- **2026-11-09**: Implementasi Arsitektur Pertahanan Siber (Cybersecurity Hardening & Anti-Abuse Defenses).
+  *Alasan*: Melindungi aplikasi dari potensi eksploitasi dan serangan otomatis: (1) Anti-Brute Force sliding-window rate limiter dengan penalti lockout 15 menit (HTTP 429), (2) Timing-safe cryptographic comparison (`crypto.timingSafeEqual`) untuk menangkal side-channel timing attacks, (3) Pemeriksaan Same-Origin dan header `sec-fetch-site` untuk memitigasi CSRF, (4) Filter ukuran payload (maksimal 512 KB) untuk mitigasi DoS / resource exhaustion, (5) Sanitasi HTML/Script otomatis pada semua input teks guna mencegah Stored XSS, dan (6) Pengecualian indeksasi bot perayap (`disallow: /admin, /api/` di `robots.ts` & `noindex` metadata).

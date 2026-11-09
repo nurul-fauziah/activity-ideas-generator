@@ -384,7 +384,7 @@ export function GachaMachine({
             <p className="text-xs font-mono font-bold text-text-muted">
               {hasCoinsSelected
                 ? "Koin terpasang! Putar tuas mesin untuk memulai"
-                : "Pilih minimal 1 koin mood di atas untuk memutar mesin"}
+                : "Pilih minimal 1 koin aktivitas di atas untuk memutar mesin"}
             </p>
           )}
         </div>
@@ -415,7 +415,7 @@ export function GachaMachine({
               {hasCoinsSelected ? (
                 <>
                   <CheckCircle2 size={13} className="text-arcade-mint" />
-                  <span>{isMystery ? "Koin Pelangi Masuk" : "Koin Mood Masuk"}</span>
+                  <span>{isMystery ? "Koin Pelangi Masuk" : "Koin Aktivitas Masuk"}</span>
                 </>
               ) : (
                 <span className="text-text-muted">Kosong</span>

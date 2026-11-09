@@ -3,6 +3,14 @@ import fs from "fs/promises";
 import path from "path";
 import initialActivities from "@/data/activities.json";
 import { Activity, CategoryId, Rarity, SocialMode, PlaceMode, DeviceMode } from "@/types/activity";
+import {
+  checkRateLimit,
+  resetRateLimit,
+  timingSafePinCompare,
+  sanitizeTextInput,
+  validateSameOrigin,
+  getClientIp,
+} from "@/lib/security";
 
 const ALLOWED_CATEGORIES = new Set<string>([
   "senang-senang",
@@ -22,6 +30,7 @@ const ALLOWED_PLACE = new Set<string>(["indoor", "outdoor"]);
 const ALLOWED_DEVICE = new Set<string>(["none", "phone", "laptop", "tanpa-alat", "hp"]);
 
 const ID_REGEX = /^[a-z0-9-]+$/;
+const MAX_PAYLOAD_BYTES = 512 * 1024; // 512 KB
 
 // GET: Ambil katalog aktivitas
 export async function GET() {
@@ -44,24 +53,75 @@ export async function GET() {
   }
 }
 
-// POST: Simpan katalog aktivitas (Terproteksi PIN & Validasi Ketat)
+// POST: Simpan katalog aktivitas dengan Hardening Siber Menyeluruh
 export async function POST(request: Request) {
-  try {
-    // 1. Verifikasi Autentikasi Admin PIN
-    const expectedPin = process.env.ADMIN_PIN || "1234";
-    const providedPin = request.headers.get("x-admin-pin")?.trim();
+  const clientIp = getClientIp(request);
 
-    if (!providedPin || providedPin !== expectedPin) {
+  try {
+    // 1. Perlindungan Anti-CSRF / Same-Origin Check
+    const originCheck = validateSameOrigin(request);
+    if (!originCheck.valid) {
       return NextResponse.json(
         {
           success: false,
-          message: "Akses ditolak: PIN admin tidak valid atau belum diisi.",
+          message: originCheck.reason || "Akses ditolak: Permintaan lintas origin dilarang.",
+        },
+        { status: 403 }
+      );
+    }
+
+    // 2. Perlindungan Anti-DoS: Periksa Batas Ukuran Payload (Content-Length)
+    const contentLength = Number(request.headers.get("content-length") || "0");
+    if (contentLength > MAX_PAYLOAD_BYTES) {
+      return NextResponse.json(
+        {
+          success: false,
+          message: "Ukuran data melampaui batas maksimum yang diizinkan (maksimal 512 KB).",
+        },
+        { status: 413 }
+      );
+    }
+
+    // 3. Perlindungan Anti-Brute Force: Cek Batas Percobaan & Lockout IP
+    const rateLimitKey = `admin-pin:${clientIp}`;
+    const rateLimit = checkRateLimit(rateLimitKey, 5, 15 * 60 * 1000, 15 * 60 * 1000);
+
+    if (!rateLimit.allowed) {
+      const minutesRemaining = Math.ceil(rateLimit.retryAfterSeconds / 60);
+      return NextResponse.json(
+        {
+          success: false,
+          message: `Terlalu banyak percobaan autentikasi gagal. Akses dari IP Anda dikunci sementara selama ${minutesRemaining} menit untuk keamanan.`,
+        },
+        {
+          status: 429,
+          headers: {
+            "Retry-After": String(rateLimit.retryAfterSeconds),
+          },
+        }
+      );
+    }
+
+    // 4. Verifikasi PIN Menggunakan Timing-Safe Comparison (Cegah Serangan Side-Channel)
+    const expectedPin = process.env.ADMIN_PIN || "1234";
+    const providedPin = request.headers.get("x-admin-pin")?.trim() || "";
+
+    const isPinValid = timingSafePinCompare(providedPin, expectedPin);
+
+    if (!isPinValid) {
+      return NextResponse.json(
+        {
+          success: false,
+          message: `Akses ditolak: PIN admin tidak valid. Sisa kesempatan sebelum terkunci: ${rateLimit.remaining} kali.`,
         },
         { status: 401 }
       );
     }
 
-    // 2. Batas Ukuran & Struktur Payload
+    // Jika PIN valid, bersihkan catatan percobaan gagal untuk IP ini
+    resetRateLimit(rateLimitKey);
+
+    // 5. Validasi Struktur & Batasan Array
     const body = (await request.json()) as { activities?: unknown };
     const rawList = body.activities;
 
@@ -85,7 +145,7 @@ export async function POST(request: Request) {
       );
     }
 
-    // 3. Validasi & Sanitasi Setiap Misi
+    // 6. Sanitasi & Validasi Mendalam Anti-XSS untuk Setiap Entri
     const sanitizedActivities: Activity[] = [];
     const seenIds = new Set<string>();
 
@@ -94,13 +154,13 @@ export async function POST(request: Request) {
 
       if (!item || typeof item !== "object") {
         return NextResponse.json(
-          { success: false, message: `Item ke-${i + 1} tidak valid.` },
+          { success: false, message: `Data misi pada urutan ke-${i + 1} tidak valid.` },
           { status: 400 }
         );
       }
 
-      // Validasi ID
-      const rawId = typeof item.id === "string" ? item.id.trim() : "";
+      // Validasi ID (regex huruf kecil, angka, strip)
+      const rawId = typeof item.id === "string" ? sanitizeTextInput(item.id.trim()) : "";
       if (!rawId || rawId.length < 2 || rawId.length > 50 || !ID_REGEX.test(rawId)) {
         return NextResponse.json(
           {
@@ -119,8 +179,8 @@ export async function POST(request: Request) {
       }
       seenIds.add(rawId);
 
-      // Validasi Title
-      const rawTitle = typeof item.title === "string" ? item.title.trim() : "";
+      // Sanitasi & Validasi Judul
+      const rawTitle = typeof item.title === "string" ? sanitizeTextInput(item.title) : "";
       if (!rawTitle || rawTitle.length < 3 || rawTitle.length > 200) {
         return NextResponse.json(
           { success: false, message: `Judul pada misi '${rawId}' tidak valid (wajib 3-200 karakter).` },
@@ -128,8 +188,8 @@ export async function POST(request: Request) {
         );
       }
 
-      // Validasi Description
-      const rawDesc = typeof item.description === "string" ? item.description.trim() : "";
+      // Sanitasi & Validasi Deskripsi
+      const rawDesc = typeof item.description === "string" ? sanitizeTextInput(item.description) : "";
       if (!rawDesc || rawDesc.length < 5 || rawDesc.length > 1000) {
         return NextResponse.json(
           { success: false, message: `Deskripsi pada misi '${rawId}' tidak valid (wajib 5-1000 karakter).` },
@@ -188,12 +248,12 @@ export async function POST(request: Request) {
 
       const needsInternet = Boolean(item.needs_internet);
 
-      // Validasi Steps
+      // Sanitasi & Validasi Langkah-langkah Petunjuk
       const validSteps: string[] = [];
       if (Array.isArray(item.steps)) {
         for (const st of item.steps) {
           if (typeof st === "string") {
-            const cleanSt = st.trim();
+            const cleanSt = sanitizeTextInput(st);
             if (cleanSt.length > 0 && cleanSt.length <= 300) {
               validSteps.push(cleanSt);
             }
@@ -208,10 +268,10 @@ export async function POST(request: Request) {
         );
       }
 
-      // Validasi Free Check
+      // Sanitasi Catatan Bebas Biaya
       const freeNotes =
         item.free_check && typeof item.free_check.notes === "string"
-          ? item.free_check.notes.trim().slice(0, 300)
+          ? sanitizeTextInput(item.free_check.notes).slice(0, 300)
           : "100% Free";
 
       sanitizedActivities.push({
@@ -235,7 +295,7 @@ export async function POST(request: Request) {
       });
     }
 
-    // 4. Tulis ke file disk lokal secara atomic
+    // 7. Tulis ke file disk lokal secara aman
     const filePath = path.join(process.cwd(), "data", "activities.json");
     await fs.writeFile(filePath, JSON.stringify(sanitizedActivities, null, 2), "utf-8");
 

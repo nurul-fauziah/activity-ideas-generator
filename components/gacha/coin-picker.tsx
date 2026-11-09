@@ -32,7 +32,7 @@ export function CoinPicker({
       <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2">
         <div>
           <h2 className="font-display font-black text-xl sm:text-2xl text-text">
-            Pilih Koin Mood
+            Pilih Koin Aktivitas
           </h2>
           <p className="text-xs sm:text-sm text-text-muted mt-0.5">
             Pilih satu atau beberapa koin suasana, atau pilih koin holografik <strong>Acak Total</strong>!
@@ -49,7 +49,7 @@ export function CoinPicker({
                 ? "bg-arcade-yellow text-white font-black shadow-inner"
                 : "text-text hover:bg-surface-2"
             }`}
-            title={isAllSelected ? "Semua 9 koin mood sedang terpilih" : "Pilih seluruh 9 koin mood"}
+            title={isAllSelected ? "Semua 9 koin aktivitas sedang terpilih" : "Pilih seluruh 9 koin aktivitas"}
           >
             <CheckCheck
               size={13}
@@ -117,7 +117,7 @@ export function CoinPicker({
           </div>
         </button>
 
-        {/* Regular Category Mood Coins */}
+        {/* Regular Category Aktivitas Coins */}
         {CATEGORIES.map((cat) => {
           const isSelected = selectedCategories.includes(cat.id);
           const isDimmed = isMysterySelected;
