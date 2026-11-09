@@ -1,0 +1,2376 @@
+[
+  {
+    "id": "senang-001",
+    "title": "Bikin playlist masa SMP/SMA dan dengarkan 2 lagu pertama",
+    "description": "Buka aplikasi musik gratisan, kumpulkan 5 lagu yang dulu sering kamu dengar waktu sekolah, lalu nikmati nostalgia sejenak.",
+    "categories": [
+      "senang-senang"
+    ],
+    "duration_min": 15,
+    "social": "solo",
+    "place": "indoor",
+    "device": "phone",
+    "difficulty": "easy",
+    "steps": [
+      "Buka YouTube atau Spotify versi gratis",
+      "Ketik judul lagu yang paling membekas di masa sekolah",
+      "Dengarkan 2 lagu pertama sambil relaks tanpa buka tab lain"
+    ],
+    "free_check": {
+      "verified": true,
+      "notes": "Bisa memakai akun gratisan YouTube atau web player"
+    },
+    "rarity": "epic",
+    "xp": 50,
+    "coins": 20,
+    "needs_internet": true
+  },
+  {
+    "id": "senang-002",
+    "title": "Tantangan foto 5 benda berwarna merah di sekitarmu",
+    "description": "Cari sudut unik dari 5 benda merah di dalam ruangan, potret dengan komposisi dramatis ala fotografer pameran.",
+    "categories": [
+      "senang-senang",
+      "kreatif"
+    ],
+    "duration_min": 10,
+    "social": "solo",
+    "place": "indoor",
+    "device": "phone",
+    "difficulty": "easy",
+    "steps": [
+      "Lihat sekeliling ruangan tanpa berdiri dulu",
+      "Temukan 5 benda berbeda yang memiliki elemen warna merah",
+      "Ambil foto close-up atau sudut rendah untuk tiap benda"
+    ],
+    "free_check": {
+      "verified": true,
+      "notes": "Hanya memanfaatkan kamera bawaan ponsel"
+    },
+    "rarity": "common",
+    "xp": 10,
+    "coins": 5,
+    "needs_internet": true
+  },
+  {
+    "id": "senang-003",
+    "title": "Dance lepas satu lagu tanpa peduli gaya",
+    "description": "Pasang lagu bertempo cepat yang bikin semangat, tutup pintu kamar, dan gerakkan badan sebebas-bebasnya selama 3 menit.",
+    "categories": [
+      "senang-senang",
+      "fisik"
+    ],
+    "duration_min": 5,
+    "social": "solo",
+    "place": "indoor",
+    "device": "phone",
+    "difficulty": "easy",
+    "steps": [
+      "Pilih 1 lagu favorit bertempo tinggi",
+      "Keraskan volume sewajarnya atau gunakan earphone",
+      "Gerakkan badan mengikuti ketukan sampai lagu selesai"
+    ],
+    "free_check": {
+      "verified": true,
+      "notes": "Tidak butuh alat khusus atau langganan"
+    },
+    "rarity": "common",
+    "xp": 10,
+    "coins": 5,
+    "needs_internet": true
+  },
+  {
+    "id": "senang-004",
+    "title": "Tebak suara lingkungan dengan mata terpejam",
+    "description": "Duduk hening di teras atau dekat jendela, pejamkan mata selama 5 menit, dan identifikasi minimal 7 suara berbeda di sekitar.",
+    "categories": [
+      "senang-senang",
+      "psikologi"
+    ],
+    "duration_min": 5,
+    "social": "solo",
+    "place": "outdoor",
+    "device": "none",
+    "difficulty": "easy",
+    "steps": [
+      "Cari tempat duduk yang nyaman dekat jendela atau luar rumah",
+      "Pejamkan mata dan atur napas perlahan",
+      "Hitung dalam hati setiap suara baru yang kamu tangkap: angin, burung, mesin, obrolan jauh"
+    ],
+    "free_check": {
+      "verified": true,
+      "notes": "100% tanpa alat"
+    },
+    "rarity": "rare",
+    "xp": 25,
+    "coins": 10,
+    "needs_internet": false
+  },
+  {
+    "id": "senang-005",
+    "title": "Main adu tahan ketawa bareng teman serumah",
+    "description": "Saling tatap mata selama 2 menit tanpa boleh tersenyum atau tertawa. Siapa yang tertawa duluan harus cuci piring gelasnya sendiri.",
+    "categories": [
+      "senang-senang",
+      "sosial"
+    ],
+    "duration_min": 5,
+    "social": "group",
+    "place": "indoor",
+    "device": "none",
+    "difficulty": "easy",
+    "steps": [
+      "Ajak 1 orang teman atau keluarga yang sedang senggang",
+      "Duduk berhadapan dengan jarak 1 meter",
+      "Mulai stopwatch dan tahan ekspresi datar sedingin mungkin"
+    ],
+    "free_check": {
+      "verified": true,
+      "notes": "Permainan tatap muka langsung tanpa biaya"
+    },
+    "rarity": "common",
+    "xp": 10,
+    "coins": 5,
+    "needs_internet": false
+  },
+  {
+    "id": "senang-006",
+    "title": "Tonton 2 video komedi atau hewan lucu tanpa mikir beban",
+    "description": "Buka YouTube atau TikTok, cari video kompilasi hewan lucu atau stand-up komedi singkat, dan biarkan dirimu tertawa lepas.",
+    "categories": [
+      "senang-senang"
+    ],
+    "duration_min": 10,
+    "social": "solo",
+    "place": "indoor",
+    "device": "phone",
+    "difficulty": "easy",
+    "steps": [
+      "Buka platform video gratisan di HP",
+      "Ketik kata kunci 'funny animals compilation' atau komika favoritmu",
+      "Tonton 2 video pertama dengan santai"
+    ],
+    "free_check": {
+      "verified": true,
+      "notes": "Akses video publik gratis di YouTube"
+    },
+    "rarity": "common",
+    "xp": 10,
+    "coins": 5,
+    "needs_internet": true
+  },
+  {
+    "id": "senang-007",
+    "title": "Tirukan 3 suara karakter kartun atau tokoh terkenal",
+    "description": "Eksplorasi pita suaramu. Coba tiru suara tokoh kartun legendaris (seperti Spongebob, Doraemon, atau Donald Duck) sampai semirip mungkin.",
+    "categories": [
+      "senang-senang"
+    ],
+    "duration_min": 5,
+    "social": "solo",
+    "place": "indoor",
+    "device": "none",
+    "difficulty": "easy",
+    "steps": [
+      "Pilih 3 tokoh kartun yang suaranya paling kamu hafal",
+      "Ucapkan satu kalimat ikonik mereka di depan cermin",
+      "Rekam suaramu pakai voice recorder HP untuk mendengar hasilnya dan tertawa sendiri"
+    ],
+    "free_check": {
+      "verified": true,
+      "notes": "100% tanpa alat berbayar"
+    },
+    "rarity": "rare",
+    "xp": 25,
+    "coins": 10,
+    "needs_internet": false
+  },
+  {
+    "id": "senang-008",
+    "title": "Bikin skenario 'Bagaimana Jika' (What If) paling konyol",
+    "description": "Bayangkan skenario absurd seperti: 'Gimana kalau kucing tiba-tiba bisa bicara bahasa manusia dan menagih sewa rumah?'",
+    "categories": [
+      "senang-senang"
+    ],
+    "duration_min": 10,
+    "social": "solo",
+    "place": "indoor",
+    "device": "none",
+    "difficulty": "easy",
+    "steps": [
+      "Pilih satu hukum alam atau kebiasaan sehari-hari",
+      "Balikkan kondisinya secara ekstrem dan kocak",
+      "Tuliskan 3 dampak kocak yang bakal terjadi jika skenario itu jadi nyata"
+    ],
+    "free_check": {
+      "verified": true,
+      "notes": "Imajinasi santai tanpa biaya"
+    },
+    "rarity": "legendary",
+    "xp": 100,
+    "coins": 40,
+    "needs_internet": false
+  },
+  {
+    "id": "senang-009",
+    "title": "Dengarkan suara hujan atau api unggun sambil relaksasi mata",
+    "description": "Buka audio white noise alami, pasang earphone, sandarkan kepala di bantal, dan istirahatkan matamu dari paparan layar.",
+    "categories": [
+      "senang-senang"
+    ],
+    "duration_min": 15,
+    "social": "solo",
+    "place": "indoor",
+    "device": "phone",
+    "difficulty": "easy",
+    "steps": [
+      "Buka browser atau YouTube, cari 'rain sounds 10 minutes'",
+      "Kecilkan kecerahan layar ponsel atau posisikan tengkurap",
+      "Tutup mata dan biarkan pikiran melayang tenang"
+    ],
+    "free_check": {
+      "verified": true,
+      "notes": "Audio relaksasi publik gratis"
+    },
+    "rarity": "epic",
+    "xp": 50,
+    "coins": 20,
+    "needs_internet": true
+  },
+  {
+    "id": "self-001",
+    "title": "Brain dump 10 menit: keluarkan semua isi kepala ke kertas",
+    "description": "Ambil selembar kertas bekas dan pulpen. Tuliskan semua hal yang sedang membebani pikiran tanpa diedit sampai kertas penuh.",
+    "categories": [
+      "self-improvement",
+      "psikologi"
+    ],
+    "duration_min": 15,
+    "social": "solo",
+    "place": "indoor",
+    "device": "none",
+    "difficulty": "easy",
+    "steps": [
+      "Siapkan kertas kosong dan satu alat tulis",
+      "Setel alarm timer selama 10 menit",
+      "Tulis apapun yang terlintas: kekhawatiran, to-do list, ide, rasa kesal tanpa filter",
+      "Setelah timer bunyi, garis bawahi 1 hal paling krusial yang bisa diselesaikan hari ini"
+    ],
+    "free_check": {
+      "verified": true,
+      "notes": "Hanya butuh kertas dan pulpen yang sudah ada di rumah"
+    },
+    "rarity": "rare",
+    "xp": 25,
+    "coins": 10,
+    "needs_internet": false
+  },
+  {
+    "id": "self-002",
+    "title": "Audit dan bersihkan satu laci atau sudut meja kerja",
+    "description": "Pilih satu titik kecil yang berantakan: laci meja, dompet, atau kotak kabel. Buang sampah dan tata rapi.",
+    "categories": [
+      "self-improvement"
+    ],
+    "duration_min": 15,
+    "social": "solo",
+    "place": "indoor",
+    "device": "none",
+    "difficulty": "easy",
+    "steps": [
+      "Keluarkan seluruh isi dari satu laci atau kotak terpilih",
+      "Kelompokkan jadi 3 tumpukan: simpan, buang, atau pindahkan",
+      "Lap permukaan laci hingga bersih dan tata kembali barang esensial"
+    ],
+    "free_check": {
+      "verified": true,
+      "notes": "Pembersihan fisik sederhana tanpa modal belanja organizer"
+    },
+    "rarity": "common",
+    "xp": 10,
+    "coins": 5,
+    "needs_internet": false
+  },
+  {
+    "id": "self-003",
+    "title": "Tulis 3 kemenangan kecil yang berhasil kamu capai minggu ini",
+    "description": "Seringkali kita lupa mengapresiasi diri sendiri. Tulis tiga hal yang berhasil kamu lewati atau selesaikan, sekecil apapun itu.",
+    "categories": [
+      "self-improvement",
+      "psikologi"
+    ],
+    "duration_min": 5,
+    "social": "solo",
+    "place": "indoor",
+    "device": "none",
+    "difficulty": "easy",
+    "steps": [
+      "Buka aplikasi catatan di HP atau gunakan buku harian",
+      "Ingat momen dari Senin hingga hari ini",
+      "Catat 3 hal: misalnya bangun tepat waktu, menyelesaikan tugas, atau menahan emosi"
+    ],
+    "free_check": {
+      "verified": true,
+      "notes": "Gratis, cukup media catatan pribadi"
+    },
+    "rarity": "common",
+    "xp": 10,
+    "coins": 5,
+    "needs_internet": false
+  },
+  {
+    "id": "self-004",
+    "title": "Review 5 langganan atau aplikasi di HP yang sudah tidak terpakai",
+    "description": "Buka menu pengaturan aplikasi di HP kamu, urutkan berdasarkan waktu penggunaan terakhir, dan uninstall minimal 3 aplikasi yang memakan ruang.",
+    "categories": [
+      "self-improvement"
+    ],
+    "duration_min": 10,
+    "social": "solo",
+    "place": "indoor",
+    "device": "phone",
+    "difficulty": "easy",
+    "steps": [
+      "Masuk ke Settings > Storage atau Apps di HP",
+      "Lihat daftar aplikasi yang tidak pernah dibuka selama 3 bulan",
+      "Hapus instalasi aplikasi yang tidak esensial untuk melegakan memori"
+    ],
+    "free_check": {
+      "verified": true,
+      "notes": "Fitur bawaan sistem operasi HP"
+    },
+    "rarity": "rare",
+    "xp": 25,
+    "coins": 10,
+    "needs_internet": true
+  },
+  {
+    "id": "self-005",
+    "title": "Rancang rutinitas pagi 3 langkah untuk besok",
+    "description": "Tentukan 3 urutan kegiatan pertama yang akan kamu lakukan begitu bangun tidur besok pagi agar harimu tidak langsung dibajak scrolling media sosial.",
+    "categories": [
+      "self-improvement"
+    ],
+    "duration_min": 10,
+    "social": "solo",
+    "place": "indoor",
+    "device": "none",
+    "difficulty": "easy",
+    "steps": [
+      "Pilih 3 aksi simpel (contoh: minum 1 gelas air, buka gorden, rapikan selimut)",
+      "Tulis di secarik kertas kecil",
+      "Tempel kertas itu di atas meja samping tempat tidur"
+    ],
+    "free_check": {
+      "verified": true,
+      "notes": "Perencanaan mandiri tanpa aplikasi berbayar"
+    },
+    "rarity": "common",
+    "xp": 10,
+    "coins": 5,
+    "needs_internet": false
+  },
+  {
+    "id": "tech-001",
+    "title": "Bikin halaman web profil 1 file HTML murni",
+    "description": "Buka text editor bawaan laptop (Notepad atau TextEdit), tulis file HTML berisi nama, bio 2 kalimat, dan 3 link favoritmu, lalu buka di browser.",
+    "categories": [
+      "tech"
+    ],
+    "duration_min": 30,
+    "social": "solo",
+    "place": "indoor",
+    "device": "laptop",
+    "difficulty": "easy",
+    "steps": [
+      "Buka Notepad atau VS Code gratis",
+      "Tulis tag dasar <html>, <head>, <body>, tambahkan heading <h1> dan link <a href>",
+      "Simpan file dengan nama profil.html",
+      "Klik dua kali file tersebut untuk membukanya di browser Chrome/Edge"
+    ],
+    "free_check": {
+      "verified": true,
+      "notes": "Hanya membutuhkan text editor dan browser bawaan sistem"
+    },
+    "rarity": "legendary",
+    "xp": 100,
+    "coins": 40,
+    "needs_internet": true
+  },
+  {
+    "id": "tech-002",
+    "title": "Eksplor 3 shortcut terminal baru di komputermu",
+    "description": "Buka terminal atau PowerShell, pelajari dan praktikkan shortcut produktivitas yang jarang dipakai seperti Ctrl+R (search history) atau Ctrl+A (lompat ke awal baris).",
+    "categories": [
+      "tech"
+    ],
+    "duration_min": 15,
+    "social": "solo",
+    "place": "indoor",
+    "device": "laptop",
+    "difficulty": "easy",
+    "steps": [
+      "Buka Terminal atau PowerShell",
+      "Coba shortcut navigasi kursor (Ctrl+A untuk awal, Ctrl+E untuk akhir baris)",
+      "Coba pencarian command lama dengan mengetikkan riwayat perintah"
+    ],
+    "free_check": {
+      "verified": true,
+      "notes": "Fasilitas bawaan OS tanpa instalasi tools berbayar"
+    },
+    "rarity": "rare",
+    "xp": 25,
+    "coins": 10,
+    "needs_internet": true
+  },
+  {
+    "id": "tech-003",
+    "title": "Inspeksi elemen dan ubah teks judul situs berita favoritmu",
+    "description": "Buka browser laptop, klik kanan pada judul berita di sebuah situs, pilih 'Inspect Element', lalu ubah teksnya jadi kalimat buatanmu sendiri.",
+    "categories": [
+      "tech"
+    ],
+    "duration_min": 10,
+    "social": "solo",
+    "place": "indoor",
+    "device": "laptop",
+    "difficulty": "easy",
+    "steps": [
+      "Buka salah satu website portal berita di browser",
+      "Klik kanan pada headline utama lalu klik Inspect",
+      "Cari teks judul pada tab Elements, klik dua kali, dan ganti dengan teks kocak",
+      "Tutup panel Developer Tools dan screenshot hasilnya untuk disimpan"
+    ],
+    "free_check": {
+      "verified": true,
+      "notes": "Menggunakan browser DevTools gratis"
+    },
+    "rarity": "epic",
+    "xp": 50,
+    "coins": 20,
+    "needs_internet": true
+  },
+  {
+    "id": "tech-004",
+    "title": "Organisir bookmark browser ke dalam 3 folder rapi",
+    "description": "Rapikan puluhan tab bookmark yang menumpuk di browser. Kelompokkan ke dalam 3 folder utama: Kerja/Belajar, Referensi, dan Hiburan.",
+    "categories": [
+      "tech"
+    ],
+    "duration_min": 15,
+    "social": "solo",
+    "place": "indoor",
+    "device": "laptop",
+    "difficulty": "easy",
+    "steps": [
+      "Tekan Ctrl+Shift+O (Bookmark Manager) di Chrome/Firefox",
+      "Buat 3 folder baru dengan nama jelas",
+      "Tarik link-link penting ke folder yang sesuai dan hapus link rusak/tidak relevan"
+    ],
+    "free_check": {
+      "verified": true,
+      "notes": "Fitur standar browser"
+    },
+    "rarity": "common",
+    "xp": 10,
+    "coins": 5,
+    "needs_internet": true
+  },
+  {
+    "id": "tech-005",
+    "title": "Bikin script automation 5 baris di terminal untuk rapikan file download",
+    "description": "Buat batch file atau shell script sederhana untuk memindahkan file berekstensi .pdf atau .png dari folder Downloads ke folder arsip khusus.",
+    "categories": [
+      "tech"
+    ],
+    "duration_min": 30,
+    "social": "solo",
+    "place": "indoor",
+    "device": "laptop",
+    "difficulty": "medium",
+    "steps": [
+      "Buka editor teks dan buat folder target bernama 'Arsip_Dokumen'",
+      "Tulis perintah pemindahan file (misalnya: move *.pdf Arsip_Dokumen\\)",
+      "Jalankan skrip dan perhatikan folder download langsung rapi dalam 1 detik"
+    ],
+    "free_check": {
+      "verified": true,
+      "notes": "Menggunakan CLI bawaan Windows PowerShell / Bash"
+    },
+    "rarity": "rare",
+    "xp": 25,
+    "coins": 10,
+    "needs_internet": true
+  },
+  {
+    "id": "psikologi-001",
+    "title": "Latihan Box Breathing 4x4 untuk turunkan detak jantung",
+    "description": "Teknik pernapasan yang dipakai Navy SEAL untuk mengendalikan stres: tarik napas 4 detik, tahan 4 detik, hembuskan 4 detik, tahan 4 detik.",
+    "categories": [
+      "psikologi",
+      "fisik"
+    ],
+    "duration_min": 5,
+    "social": "solo",
+    "place": "indoor",
+    "device": "none",
+    "difficulty": "easy",
+    "steps": [
+      "Duduk tegak dengan bahu rileks",
+      "Tarik napas perlahan lewat hidung selama 4 detik",
+      "Tahan napas di paru-paru selama 4 detik",
+      "Hembuskan tuntas lewat mulut selama 4 detik",
+      "Tahan kondisi kosong selama 4 detik, lalu ulangi siklus ini 4 kali"
+    ],
+    "free_check": {
+      "verified": true,
+      "notes": "Teknik somatik murni tanpa alat"
+    },
+    "rarity": "common",
+    "xp": 10,
+    "coins": 5,
+    "needs_internet": false
+  },
+  {
+    "id": "psikologi-002",
+    "title": "Identifikasi 1 bias kognitif yang mempengaruhimu hari ini",
+    "description": "Pelajari satu konsep psikologi seperti 'Confirmation Bias' atau 'Spotlight Effect', lalu renungkan apakah kamu baru saja mengalaminya hari ini.",
+    "categories": [
+      "psikologi",
+      "self-improvement"
+    ],
+    "duration_min": 15,
+    "social": "solo",
+    "place": "indoor",
+    "device": "phone",
+    "difficulty": "easy",
+    "steps": [
+      "Buka artikel Wikipedia tentang 'Spotlight Effect' (kecenderungan merasa semua orang memperhatikan kesalahan kita)",
+      "Baca ringkasan pembukaannya selama 3 menit",
+      "Ingat momen canggung tadi pagi dan sadari bahwa orang lain sebenarnya tidak memikirkannya"
+    ],
+    "free_check": {
+      "verified": true,
+      "notes": "Membaca artikel ensiklopedia publik Wikipedia"
+    },
+    "rarity": "common",
+    "xp": 10,
+    "coins": 5,
+    "needs_internet": true
+  },
+  {
+    "id": "psikologi-003",
+    "title": "Grounding 5-4-3-2-1 untuk redakan overthinking",
+    "description": "Alihkan fokus dari pikiran yang berputar ke panca indera nyata di sekitarmu dengan metode observasi bertingkat.",
+    "categories": [
+      "psikologi"
+    ],
+    "duration_min": 5,
+    "social": "solo",
+    "place": "indoor",
+    "device": "none",
+    "difficulty": "easy",
+    "steps": [
+      "Sebutkan dalam hati 5 benda yang bisa kamu LIHAT",
+      "Sebutkan 4 benda yang bisa kamu SENTUH teksturnya",
+      "Sebutkan 3 suara yang bisa kamu DENGAR",
+      "Sebutkan 2 aroma yang bisa kamu CIUM",
+      "Sebutkan 1 rasa di lidahmu saat ini"
+    ],
+    "free_check": {
+      "verified": true,
+      "notes": "Metode klinis standar yang bebas diakses siapa saja"
+    },
+    "rarity": "rare",
+    "xp": 25,
+    "coins": 10,
+    "needs_internet": false
+  },
+  {
+    "id": "psikologi-004",
+    "title": "Catat pemicu emosi (Trigger Tracker) dari kejadian terakhir",
+    "description": "Pikirkan satu hal yang membuatmu kesal atau cemas hari ini. Telusuri fakta objektifnya vs asumsi pikiranmu.",
+    "categories": [
+      "psikologi",
+      "self-improvement"
+    ],
+    "duration_min": 10,
+    "social": "solo",
+    "place": "indoor",
+    "device": "none",
+    "difficulty": "easy",
+    "steps": [
+      "Tulis apa fakta konkret kejadiannya (contoh: 'Pesan belum dibalas 3 jam')",
+      "Tulis apa cerita dramatis yang dibuat pikiranmu ('Dia sengaja mengabaikanku')",
+      "Tulis 2 kemungkinan lain yang lebih logis ('Dia sedang di jalan atau baterai habis')"
+    ],
+    "free_check": {
+      "verified": true,
+      "notes": "Latihan CBT mandiri tanpa biaya konseling"
+    },
+    "rarity": "common",
+    "xp": 10,
+    "coins": 5,
+    "needs_internet": false
+  },
+  {
+    "id": "matematika-001",
+    "title": "Latihan trik perkalian cepat angka 11 dengan dua digit",
+    "description": "Kuasai trik mental math legendaris: untuk menghitung 35 x 11, cukup sisipkan jumlah kedua angka di tengahnya (3+5 = 8, hasilnya 385!).",
+    "categories": [
+      "matematika"
+    ],
+    "duration_min": 10,
+    "social": "solo",
+    "place": "indoor",
+    "device": "none",
+    "difficulty": "easy",
+    "steps": [
+      "Pahami rumusnya: AB x 11 = A [A+B] B",
+      "Coba hitung di kepala: 24 x 11 (2 [2+4] 4 = 264)",
+      "Coba variasi dengan simpanan: 48 x 11 (4 [4+8=12] 8 -> simpan 1 ke depan = 528)",
+      "Latih 5 soal buatanmu sendiri di secarik kertas"
+    ],
+    "free_check": {
+      "verified": true,
+      "notes": "Trik nalar matematika murni"
+    },
+    "rarity": "common",
+    "xp": 10,
+    "coins": 5,
+    "needs_internet": false
+  },
+  {
+    "id": "matematika-002",
+    "title": "Pecahkan teka-teki logika klasik Monty Hall",
+    "description": "Pahami paradoks probabilitas terkenal: jika ada 3 pintu (1 mobil, 2 kambing), kamu memilih pintu 1, lalu pembawa acara membuka pintu 3 yang berisi kambing, apakah kamu harus pindah ke pintu 2?",
+    "categories": [
+      "matematika",
+      "psikologi"
+    ],
+    "duration_min": 15,
+    "social": "solo",
+    "place": "indoor",
+    "device": "phone",
+    "difficulty": "medium",
+    "steps": [
+      "Petakan kemungkinan jika kamu tetap pada pilihan awal (peluang 1/3)",
+      "Petakan kemungkinan jika kamu selalu berganti pintu (peluang naik jadi 2/3)",
+      "Jelaskan kesimpulan logika ini ke dirimu sendiri atau teman serumah"
+    ],
+    "free_check": {
+      "verified": true,
+      "notes": "Studi kasus matematika teori permainan"
+    },
+    "rarity": "legendary",
+    "xp": 100,
+    "coins": 40,
+    "needs_internet": true
+  },
+  {
+    "id": "matematika-003",
+    "title": "Hitung deret Fibonacci di kertas sampai angka ke-15",
+    "description": "Tuliskan angka 0 dan 1, lalu jumlahkan dua angka sebelumnya untuk menemukan angka berikutnya. Perhatikan pola pertumbuhan eksponensialnya.",
+    "categories": [
+      "matematika"
+    ],
+    "duration_min": 10,
+    "social": "solo",
+    "place": "indoor",
+    "device": "none",
+    "difficulty": "easy",
+    "steps": [
+      "Mulai dengan 0, 1",
+      "0+1=1, 1+1=2, 1+2=3, 2+3=5...",
+      "Lanjutkan hingga kamu mendapatkan 15 deret angka",
+      "Bagi angka ke-15 dengan angka ke-14 dan lihat seberapa dekat hasilnya dengan rasio emas (1.618)"
+    ],
+    "free_check": {
+      "verified": true,
+      "notes": "Cukup pensil dan kertas"
+    },
+    "rarity": "common",
+    "xp": 10,
+    "coins": 5,
+    "needs_internet": false
+  },
+  {
+    "id": "matematika-004",
+    "title": "Tantangan teka-teki 24 dengan 4 angka acak",
+    "description": "Buat 4 angka dari 1 sampai 9 secara acak, lalu gunakan operasi +, -, x, / dan tanda kurung agar hasilnya tepat sama dengan 24.",
+    "categories": [
+      "matematika",
+      "game"
+    ],
+    "duration_min": 15,
+    "social": "solo",
+    "place": "indoor",
+    "device": "none",
+    "difficulty": "medium",
+    "steps": [
+      "Pilih 4 angka acak, misalnya 3, 3, 8, 8",
+      "Coba susun formulasinya di kepala atau kertas",
+      "Solusi untuk angka di atas: 8 / (1 - 3/4) atau 8 / (3 - 8/3) = 24!",
+      "Coba racik kombinasi angka baru untuk tantangan berikutnya"
+    ],
+    "free_check": {
+      "verified": true,
+      "notes": "Game aritmatika klasik tanpa aplikasi"
+    },
+    "rarity": "common",
+    "xp": 10,
+    "coins": 5,
+    "needs_internet": false
+  },
+  {
+    "id": "game-001",
+    "title": "Main game SOS di selembar kertas kotak-kotak",
+    "description": "Buat grid 5x5 di kertas. Bergantian dengan teman menulis huruf 'S' atau 'O'. Siapa yang berhasil membentuk kata 'SOS' terbanyak jadi pemenang.",
+    "categories": [
+      "game",
+      "sosial"
+    ],
+    "duration_min": 15,
+    "social": "group",
+    "place": "indoor",
+    "device": "none",
+    "difficulty": "easy",
+    "steps": [
+      "Gambar kotak grid minimal 5x5 di selembar kertas",
+      "Ajak 1 lawan main dan sepakati siapa yang jalan duluan",
+      "Goreskan garis lurus setiap kali ada susunan S-O-S (horizontal, vertikal, diagonal)"
+    ],
+    "free_check": {
+      "verified": true,
+      "notes": "Permainan kertas tradisional 100% gratis"
+    },
+    "rarity": "rare",
+    "xp": 25,
+    "coins": 10,
+    "needs_internet": false
+  },
+  {
+    "id": "game-002",
+    "title": "Main game dinosaurus Chrome offline (T-Rex Runner)",
+    "description": "Matikan Wi-Fi sebentar di browser Chrome, buka tab baru, tekan spasi saat ikon dinosaurus muncul, dan cetak skor tertinggi kamu.",
+    "categories": [
+      "game"
+    ],
+    "duration_min": 10,
+    "social": "solo",
+    "place": "indoor",
+    "device": "laptop",
+    "difficulty": "easy",
+    "steps": [
+      "Buka browser Chrome, ketik chrome://dino di address bar",
+      "Tekan tombol Space bar untuk melompat",
+      "Hindari kaktus dan burung hingga tembus skor minimal 500 poin"
+    ],
+    "free_check": {
+      "verified": true,
+      "notes": "Easter egg bawaan Chrome yang bisa dimainkan offline"
+    },
+    "rarity": "common",
+    "xp": 10,
+    "coins": 5,
+    "needs_internet": true
+  },
+  {
+    "id": "game-003",
+    "title": "Tebak kata Hangman dengan kategori kuliner lokal",
+    "description": "Satu orang memikirkan nama makanan khas Indonesia (contoh: 'RAWON SETAN'), tulis garis-garis huruf kosong, dan biarkan temanmu menebak huruf per huruf.",
+    "categories": [
+      "game",
+      "sosial"
+    ],
+    "duration_min": 10,
+    "social": "group",
+    "place": "indoor",
+    "device": "none",
+    "difficulty": "easy",
+    "steps": [
+      "Tentukan pembuat kata dan penebak kata",
+      "Tulis garis bawah sesuai jumlah huruf kata rahasia",
+      "Beri maksimal 6 kali kesempatan salah tebak sebelum gambar orang tiang gantungan selesai"
+    ],
+    "free_check": {
+      "verified": true,
+      "notes": "Permainan pensil kertas klasik"
+    },
+    "rarity": "common",
+    "xp": 10,
+    "coins": 5,
+    "needs_internet": false
+  },
+  {
+    "id": "game-004",
+    "title": "Main puzzle catur 1 langkah sekakmat (Mate in 1)",
+    "description": "Buka situs catur publik Lichess tanpa perlu login, pilih menu Puzzles, dan pecahkan 3 teka-teki taktik catur gratis.",
+    "categories": [
+      "game",
+      "matematika"
+    ],
+    "duration_min": 15,
+    "social": "solo",
+    "place": "indoor",
+    "device": "phone",
+    "difficulty": "easy",
+    "steps": [
+      "Buka lichess.org di browser HP",
+      "Klik menu Puzzles (Teka-Teki)",
+      "Pikirkan langkah terbaik sebelum menggeser bidak catur di layar"
+    ],
+    "free_check": {
+      "verified": true,
+      "notes": "Lichess adalah platform open source 100% gratis tanpa iklan dan tanpa paywall"
+    },
+    "rarity": "rare",
+    "xp": 25,
+    "coins": 10,
+    "needs_internet": true
+  },
+  {
+    "id": "kreatif-001",
+    "title": "Doodle satu halaman tanpa mengangkat ujung pena",
+    "description": "Tantangan continuous line drawing: letakkan ujung pena di atas kertas, lalu gambar wajah, hewan, atau suasana meja tanpa sekalipun mengangkat pena selama 5 menit.",
+    "categories": [
+      "kreatif"
+    ],
+    "duration_min": 10,
+    "social": "solo",
+    "place": "indoor",
+    "device": "none",
+    "difficulty": "easy",
+    "steps": [
+      "Siapkan kertas kosong dan pulpen bertinta lancar",
+      "Tentukan objek yang mau digambar (misal: cangkir kopi atau kacamata)",
+      "Gerakkan pena terus-menerus membentuk garis bersambung tanpa putus",
+      "Nikmati ketidaksempurnaan bentuk yang tercipta"
+    ],
+    "free_check": {
+      "verified": true,
+      "notes": "Aktivitas menggambar manual menggunakan alat yang ada"
+    },
+    "rarity": "common",
+    "xp": 10,
+    "coins": 5,
+    "needs_internet": false
+  },
+  {
+    "id": "kreatif-002",
+    "title": "Tulis cerita flash fiction tepat 100 kata",
+    "description": "Tantang kreativitasmu: buat cerita pendek utuh (punya awal, konflik, dan penutup mengejutkan) dengan batas tepat seratus kata.",
+    "categories": [
+      "kreatif"
+    ],
+    "duration_min": 15,
+    "social": "solo",
+    "place": "indoor",
+    "device": "phone",
+    "difficulty": "medium",
+    "steps": [
+      "Tentukan satu premis unik (contoh: seseorang menemukan kunci tanpa gembok di sakunya)",
+      "Tulis draf pertama tanpa menghitung kata",
+      "Gunakan word counter di aplikasi catatan untuk memangkas atau menambah kata hingga pas 100"
+    ],
+    "free_check": {
+      "verified": true,
+      "notes": "Menulis di notes HP atau buku biasa"
+    },
+    "rarity": "legendary",
+    "xp": 100,
+    "coins": 40,
+    "needs_internet": true
+  },
+  {
+    "id": "kreatif-003",
+    "title": "Lipat origami perahu atau burung bangau dari kertas brosur bekas",
+    "description": "Ambil kertas bekas tak terpakai, potong menjadi bujur sangkar presisi, lalu lipat menjadi bentuk origami klasik.",
+    "categories": [
+      "kreatif"
+    ],
+    "duration_min": 15,
+    "social": "solo",
+    "place": "indoor",
+    "device": "phone",
+    "difficulty": "easy",
+    "steps": [
+      "Cari kertas bekas (kertas struk, majalah, atau selebaran)",
+      "Lipat sudut kertas diagonal untuk membuat potongan persegi sempurna",
+      "Buka panduan lipatan perahu kertas dan ikuti langkah demi langkah hingga tegak"
+    ],
+    "free_check": {
+      "verified": true,
+      "notes": "Daur ulang kertas bekas rumah tangga"
+    },
+    "rarity": "rare",
+    "xp": 25,
+    "coins": 10,
+    "needs_internet": true
+  },
+  {
+    "id": "kreatif-004",
+    "title": "Bikin puisi jenaka dari 5 kata acak yang kamu lihat di ruangan",
+    "description": "Lihat ke sekeliling ruangan, comot 5 kata secara spontan (misal: stopkontak, bantal, debu, kopi, sandal), lalu rangkai menjadi puisi 4 bait.",
+    "categories": [
+      "kreatif"
+    ],
+    "duration_min": 10,
+    "social": "solo",
+    "place": "indoor",
+    "device": "none",
+    "difficulty": "easy",
+    "steps": [
+      "Pilih 5 objek secara cepat dan catat namanya",
+      "Cari rima atau asosiasi makna yang tidak terduga di antara kata-kata tersebut",
+      "Tuliskan dalam bentuk pantun atau puisi lucu"
+    ],
+    "free_check": {
+      "verified": true,
+      "notes": "Eksplorasi verbal gratis tanpa alat berbayar"
+    },
+    "rarity": "common",
+    "xp": 10,
+    "coins": 5,
+    "needs_internet": false
+  },
+  {
+    "id": "fisik-001",
+    "title": "Sesi stretching leher, bahu, dan punggung atas",
+    "description": "Lepaskan ketegangan akibat terlalu lama duduk di depan layar dengan 4 gerakan peregangan postural sederhana.",
+    "categories": [
+      "fisik"
+    ],
+    "duration_min": 5,
+    "social": "solo",
+    "place": "indoor",
+    "device": "none",
+    "difficulty": "easy",
+    "steps": [
+      "Miringkan kepala perlahan ke kanan, tahan 15 detik, lalu ulangi ke kiri",
+      "Putar bahu ke arah belakang 10 kali putaran lebar",
+      "Tautkan kedua tangan di belakang punggung, dorong dada ke depan, tahan 20 detik",
+      "Tarik napas dalam dan rasakan pundak kembali rileks"
+    ],
+    "free_check": {
+      "verified": true,
+      "notes": "Peregangan fisik mandiri tanpa alat gym"
+    },
+    "rarity": "common",
+    "xp": 10,
+    "coins": 5,
+    "needs_internet": false
+  },
+  {
+    "id": "fisik-002",
+    "title": "Jalan kaki santai 15 menit keliling komplek atau gang sekitar",
+    "description": "Tinggalkan HP di kantong, melangkah keluar rumah, hirup udara segar, dan amati perubahan tanaman atau rumah tetangga di sekitarmu.",
+    "categories": [
+      "fisik",
+      "psikologi"
+    ],
+    "duration_min": 15,
+    "social": "solo",
+    "place": "outdoor",
+    "device": "none",
+    "difficulty": "easy",
+    "steps": [
+      "Pakai sandal atau sepatu santai yang nyaman",
+      "Pilih rute memutar yang jarang kamu lewati",
+      "Berjalanlah dengan ritme sedang sambil membiarkan pikiran mengembara bebas"
+    ],
+    "free_check": {
+      "verified": true,
+      "notes": "Aktivitas luar ruang di lingkungan publik gratis"
+    },
+    "rarity": "rare",
+    "xp": 25,
+    "coins": 10,
+    "needs_internet": false
+  },
+  {
+    "id": "fisik-003",
+    "title": "Tantangan plank 60 detik atau semampunya",
+    "description": "Uji kekuatan otot inti tubuhmu dengan posisi plank lurus di lantai. Mulai dari 30 detik jika kamu baru pertama kali.",
+    "categories": [
+      "fisik"
+    ],
+    "duration_min": 5,
+    "social": "solo",
+    "place": "indoor",
+    "device": "none",
+    "difficulty": "easy",
+    "steps": [
+      "Pasang posisi siku dan jari kaki di lantai, tubuh membentuk garis lurus",
+      "Kencangkan perut dan jangan biarkan pinggang melorot",
+      "Tahan selama mungkin sambil bernapas teratur, catat berapa detik rekor kamu"
+    ],
+    "free_check": {
+      "verified": true,
+      "notes": "Latihan beban tubuh (calisthenics) tanpa perlengkapan"
+    },
+    "rarity": "common",
+    "xp": 10,
+    "coins": 5,
+    "needs_internet": false
+  },
+  {
+    "id": "fisik-004",
+    "title": "20 Wall Push-ups dan 20 Air Squats cepat",
+    "description": "Pompa aliran darah ke otak dalam waktu kurang dari 5 menit tanpa perlu ganti baju olahraga khusus.",
+    "categories": [
+      "fisik"
+    ],
+    "duration_min": 5,
+    "social": "solo",
+    "place": "indoor",
+    "device": "none",
+    "difficulty": "easy",
+    "steps": [
+      "Berdiri menghadap dinding, lakukan 20 kali push-up bersandar ke tembok",
+      "Lanjutkan dengan 20 kali gerakan jongkok berdiri (squat) dengan tumit menapak",
+      "Minum segelas air putih setelah selesai"
+    ],
+    "free_check": {
+      "verified": true,
+      "notes": "Gerakan kebugaran praktis di rumah"
+    },
+    "rarity": "common",
+    "xp": 10,
+    "coins": 5,
+    "needs_internet": false
+  },
+  {
+    "id": "sosial-001",
+    "title": "Kirim pesan apresiasi tulus ke teman lama tanpa ada maunya",
+    "description": "Pilih satu kontak teman lama yang sudah berbulan-bulan tidak kamu sapa. Kirim pesan singkat yang mendoakan atau berterima kasih atas momen baik di masa lalu.",
+    "categories": [
+      "sosial"
+    ],
+    "duration_min": 5,
+    "social": "solo",
+    "place": "indoor",
+    "device": "phone",
+    "difficulty": "easy",
+    "steps": [
+      "Buka aplikasi chat, scroll ke bawah sampai menemukan teman yang sudah lama tidak kontak",
+      "Tulis: 'Halo [nama], tiba-tiba ingat waktu kita [momen]. Semoga kabarmu dan keluarga sehat selalu ya!'",
+      "Kirim pesan tanpa mengharapkan balasan cepat"
+    ],
+    "free_check": {
+      "verified": true,
+      "notes": "Menggunakan kuota chat biasa yang sudah ada"
+    },
+    "rarity": "rare",
+    "xp": 25,
+    "coins": 10,
+    "needs_internet": true
+  },
+  {
+    "id": "sosial-002",
+    "title": "Telepon orang tua atau keluarga terdekat selama 10 menit",
+    "description": "Luangkan sejenak waktu untuk mendengar kabar keluarga. Tanyakan hal sederhana seperti apa menu makan siang mereka hari ini.",
+    "categories": [
+      "sosial"
+    ],
+    "duration_min": 15,
+    "social": "solo",
+    "place": "indoor",
+    "device": "phone",
+    "difficulty": "easy",
+    "steps": [
+      "Cari tempat yang tenang di rumah",
+      "Hubungi nomor orang tua atau kakak/adik via panggilan suara",
+      "Dengarkan cerita mereka tanpa menyela dengan keluhan pribadimu"
+    ],
+    "free_check": {
+      "verified": true,
+      "notes": "Panggilan suara WhatsApp atau telepon reguler"
+    },
+    "rarity": "epic",
+    "xp": 50,
+    "coins": 20,
+    "needs_internet": true
+  },
+  {
+    "id": "sosial-003",
+    "title": "Tanyakan satu pertanyaan mendalam ke orang di dekatmu",
+    "description": "Tinggalkan basa-basi cuaca. Tanyakan: 'Kapan terakhir kali kamu merasa sangat bangga sama dirimu sendiri?' dan dengarkan baik-baik jawabannya.",
+    "categories": [
+      "sosial",
+      "psikologi"
+    ],
+    "duration_min": 15,
+    "social": "group",
+    "place": "indoor",
+    "device": "none",
+    "difficulty": "easy",
+    "steps": [
+      "Tunggu momen santai bersama teman, pasangan, atau rekan kerja",
+      "Lontarkan pertanyaan dengan nada hangat tanpa menghakimi",
+      "Berikan kontak mata penuh saat mereka bercerita"
+    ],
+    "free_check": {
+      "verified": true,
+      "notes": "Interaksi interpersonal langsung tanpa biaya"
+    },
+    "rarity": "common",
+    "xp": 10,
+    "coins": 5,
+    "needs_internet": false
+  },
+  {
+    "id": "sosial-004",
+    "title": "Tulis review bintang 5 dengan ulasan jujur untuk UMKM langgananmu",
+    "description": "Bantu warung makan, bengkel, atau kedai kopi langganan di Google Maps dengan menuliskan 3 kalimat apresiasi tulus tentang pelayanan mereka.",
+    "categories": [
+      "sosial",
+      "kreatif"
+    ],
+    "duration_min": 10,
+    "social": "solo",
+    "place": "indoor",
+    "device": "phone",
+    "difficulty": "easy",
+    "steps": [
+      "Buka Google Maps di HP",
+      "Cari nama usaha kecil lokal langganan yang makanannya enak tapi belum banyak review",
+      "Beri rating bintang 5 dan ceritakan menu apa yang paling kamu rekomendasikan"
+    ],
+    "free_check": {
+      "verified": true,
+      "notes": "Fitur kontributor publik Google Maps gratis"
+    },
+    "rarity": "rare",
+    "xp": 25,
+    "coins": 10,
+    "needs_internet": true
+  },
+  {
+    "id": "senang-010",
+    "title": "Buat piala juara dari kertas dan berikan ke dirimu sendiri",
+    "description": "Ambil secarik kertas, buat bentuk piala penghargaan untuk satu hal sepele yang berhasil kamu lalui hari ini (misal: 'Juara Bangun Tepat Waktu').",
+    "categories": [
+      "senang-senang"
+    ],
+    "rarity": "common",
+    "xp": 10,
+    "coins": 5,
+    "duration_min": 10,
+    "social": "solo",
+    "place": "indoor",
+    "device": "none",
+    "needs_internet": false,
+    "difficulty": "easy",
+    "steps": [
+      "Ambil selembar kertas dan spidol/pena",
+      "Gambar bentuk trofi piala sederhana",
+      "Tulis gelar juara terlucu untuk dirimu sendiri dan pajang di meja"
+    ],
+    "free_check": {
+      "verified": true,
+      "notes": "Kertas bekas dan alat tulis rumah"
+    }
+  },
+  {
+    "id": "self-006",
+    "title": "Teknik Pomodoro 25 Menit: Selesaikan 1 Hal Menumpuk",
+    "description": "Pilih satu tugas kecil yang sudah kamu tunda selama berhari-hari. Pasang timer 25 menit dan kerjakan tanpa distraksi.",
+    "categories": [
+      "self-improvement"
+    ],
+    "rarity": "rare",
+    "xp": 25,
+    "coins": 10,
+    "duration_min": 30,
+    "social": "solo",
+    "place": "indoor",
+    "device": "none",
+    "needs_internet": false,
+    "difficulty": "medium",
+    "steps": [
+      "Tentukan SATU tugas yang ingin kamu tuntaskan",
+      "Matikan notifikasi HP dan pasang timer 25 menit",
+      "Fokus penuh sampai alarm berbunyi, lalu istirahat 5 menit"
+    ],
+    "free_check": {
+      "verified": true,
+      "notes": "Metode manajemen waktu mandiri"
+    }
+  },
+  {
+    "id": "self-007",
+    "title": "Audit Pengeluaran Mingguan di Selembar Kertas",
+    "description": "Ingat-ingat pengeluaran 7 hari ke belakang. Tuliskan pos pengeluaran yang sebenarnya tidak kamu butuhkan untuk dievaluasi.",
+    "categories": [
+      "self-improvement"
+    ],
+    "rarity": "common",
+    "xp": 10,
+    "coins": 5,
+    "duration_min": 15,
+    "social": "solo",
+    "place": "indoor",
+    "device": "none",
+    "needs_internet": false,
+    "difficulty": "easy",
+    "steps": [
+      "Bagi kertas menjadi 2 kolom: Butuh vs Ingin",
+      "Catat pengeluaran mingguan yang masih kamu ingat",
+      "Beri tanda centang pada kebiasaan jajan yang bisa dipangkas minggu depan"
+    ],
+    "free_check": {
+      "verified": true,
+      "notes": "Evaluasi finansial pribadi gratis"
+    }
+  },
+  {
+    "id": "self-008",
+    "title": "Tulis Surat Pendek untuk Dirimu 1 Tahun ke Depan",
+    "description": "Tuliskan harapan, kekhawatiranmu saat ini, dan pesan motivasi untuk dirimu yang akan membacanya di masa depan.",
+    "categories": [
+      "self-improvement"
+    ],
+    "rarity": "epic",
+    "xp": 50,
+    "coins": 20,
+    "duration_min": 20,
+    "social": "solo",
+    "place": "indoor",
+    "device": "none",
+    "needs_internet": false,
+    "difficulty": "medium",
+    "steps": [
+      "Tulis tanggal hari ini di sudut atas kertas",
+      "Tulis apa yang sedang kamu perjuangkan dan impianmu 1 tahun ke depan",
+      "Lipat kertasnya, masukkan ke dalam buku favorit, dan beri tanda tanggal buka"
+    ],
+    "free_check": {
+      "verified": true,
+      "notes": "Journaling reflektif tanpa biaya"
+    }
+  },
+  {
+    "id": "self-009",
+    "title": "Digital Detox 30 Menit: Taruh HP di Ruangan Lain",
+    "description": "Beri otakmu jeda dari dopamin instan. Letakkan ponsel di ruangan berbeda dan lakukan kegiatan analog tanpa layar.",
+    "categories": [
+      "self-improvement"
+    ],
+    "rarity": "rare",
+    "xp": 25,
+    "coins": 10,
+    "duration_min": 30,
+    "social": "solo",
+    "place": "indoor",
+    "device": "none",
+    "needs_internet": false,
+    "difficulty": "easy",
+    "steps": [
+      "Aktifkan mode senyap di HP",
+      "Simpan HP di dalam laci atau ruangan lain",
+      "Gunakan 30 menit ini untuk membaca buku fisik, merapikan baju, atau menyiram tanaman"
+    ],
+    "free_check": {
+      "verified": true,
+      "notes": "100% free"
+    }
+  },
+  {
+    "id": "self-010",
+    "title": "Masterclass Nilai Hidup: Pilih 5 Prinsip Utamamu",
+    "description": "Dari daftar nilai umum (kejujuran, kebebasan, keluarga, loyalitas, kreativitas, disiplin), pilih 5 prinsip nomor satu yang paling memandumu.",
+    "categories": [
+      "self-improvement"
+    ],
+    "rarity": "legendary",
+    "xp": 100,
+    "coins": 40,
+    "duration_min": 15,
+    "social": "solo",
+    "place": "indoor",
+    "device": "none",
+    "needs_internet": false,
+    "difficulty": "medium",
+    "steps": [
+      "Tuliskan 15 nilai hidup yang terlintas",
+      "Coret 10 di antaranya sampai tersisa 5 nilai paling krusial",
+      "Tulis alasan 1 kalimat mengapa masing-masing nilai itu tidak bisa kamu kompromikan"
+    ],
+    "free_check": {
+      "verified": true,
+      "notes": "Latihan penetapan nilai diri pribadi"
+    }
+  },
+  {
+    "id": "tech-006",
+    "title": "Eksplorasi Fitur Tersembunyi Browser: Reader Mode & Canvas",
+    "description": "Pelajari cara kerja Reader Mode pada artikel berita dan lihat bagaimana browser menyaring iklan menjadi teks buku yang bersih.",
+    "categories": [
+      "tech"
+    ],
+    "rarity": "common",
+    "xp": 10,
+    "coins": 5,
+    "duration_min": 10,
+    "social": "solo",
+    "place": "indoor",
+    "device": "laptop",
+    "needs_internet": true,
+    "difficulty": "easy",
+    "steps": [
+      "Buka artikel portal berita panjang",
+      "Tekan shortcut Reader Mode (F9 di Edge atau ikon buku di Firefox)",
+      "Atur ukuran font dan latar gelap untuk pengalaman baca santai"
+    ],
+    "free_check": {
+      "verified": true,
+      "notes": "Fitur bawaan web browser"
+    }
+  },
+  {
+    "id": "tech-007",
+    "title": "Ubah Tampilan Terminal dengan Prompt Keren",
+    "description": "Pelajari cara mengubah prompt PowerShell atau Bash agar menampilkan waktu atau username berwarna cerah.",
+    "categories": [
+      "tech"
+    ],
+    "rarity": "rare",
+    "xp": 25,
+    "coins": 10,
+    "duration_min": 20,
+    "social": "solo",
+    "place": "indoor",
+    "device": "laptop",
+    "needs_internet": false,
+    "difficulty": "medium",
+    "steps": [
+      "Buka file profil terminal ($PROFILE di PowerShell atau ~/.bashrc)",
+      "Tambahkan fungsi prompt custom sederhana",
+      "Restart terminal dan nikmati tampilan baru buatanmu"
+    ],
+    "free_check": {
+      "verified": true,
+      "notes": "Kustomisasi OS bawaan gratis"
+    }
+  },
+  {
+    "id": "tech-008",
+    "title": "Bikin Kalkulator Hitung Umur Sederhana di Console JS",
+    "description": "Buka Developer Tools console di browser, tulis 4 baris kode JavaScript untuk menghitung berapa hari kamu sudah hidup di dunia.",
+    "categories": [
+      "tech"
+    ],
+    "rarity": "epic",
+    "xp": 50,
+    "coins": 20,
+    "duration_min": 15,
+    "social": "solo",
+    "place": "indoor",
+    "device": "laptop",
+    "needs_internet": false,
+    "difficulty": "medium",
+    "steps": [
+      "Tekan F12 atau Ctrl+Shift+I lalu klik tab Console",
+      "Ketik: const lahir = new Date('YYYY-MM-DD');",
+      "Ketik: Math.floor((new Date() - lahir) / (1000*60*60*24)) + ' hari!';",
+      "Tekan Enter dan lihat hasilnya"
+    ],
+    "free_check": {
+      "verified": true,
+      "notes": "Menggunakan runtime JS bawaan browser"
+    }
+  },
+  {
+    "id": "tech-009",
+    "title": "Audit Izin Privasi Aplikasi di Smartphone",
+    "description": "Buka pengaturan privasi di HP, periksa aplikasi mana saja yang memiliki akses kamera, mikrofon, dan lokasi di latar belakang.",
+    "categories": [
+      "tech"
+    ],
+    "rarity": "common",
+    "xp": 10,
+    "coins": 5,
+    "duration_min": 15,
+    "social": "solo",
+    "place": "indoor",
+    "device": "phone",
+    "needs_internet": false,
+    "difficulty": "easy",
+    "steps": [
+      "Buka Settings > Privacy > Permission Manager di HP",
+      "Cek izin Microphone dan Location",
+      "Cabut izin aplikasi yang mencurigakan atau jarang dipakai"
+    ],
+    "free_check": {
+      "verified": true,
+      "notes": "Fitur keamanan standar smartphone"
+    }
+  },
+  {
+    "id": "tech-010",
+    "title": "Rancang Desain UI Portofolio Minimalis di Excalidraw",
+    "description": "Buka website papan sketsa open-source gratis excalidraw.com, gambar wireframe kasarnya hanya dalam 15 menit.",
+    "categories": [
+      "tech"
+    ],
+    "rarity": "rare",
+    "xp": 25,
+    "coins": 10,
+    "duration_min": 20,
+    "social": "solo",
+    "place": "indoor",
+    "device": "laptop",
+    "needs_internet": true,
+    "difficulty": "easy",
+    "steps": [
+      "Buka excalidraw.com di browser (tanpa perlu register)",
+      "Gambar layout 3 section: Hero, Portofolio Karya, dan Kontak",
+      "Eksport hasil gambarmu sebagai PNG untuk disimpan"
+    ],
+    "free_check": {
+      "verified": true,
+      "notes": "Layanan open-source gratis tanpa paywall"
+    }
+  },
+  {
+    "id": "psikologi-005",
+    "title": "Praktik Menulis 'Unsent Letter' untuk Lepaskan Beban",
+    "description": "Tuliskan surat jujur sejujur-jujurnya kepada seseorang yang pernah mengecewakanmu, lalu robek dan buang kertasnya tanpa pernah mengirimkannya.",
+    "categories": [
+      "psikologi"
+    ],
+    "rarity": "rare",
+    "xp": 25,
+    "coins": 10,
+    "duration_min": 15,
+    "social": "solo",
+    "place": "indoor",
+    "device": "none",
+    "needs_internet": false,
+    "difficulty": "medium",
+    "steps": [
+      "Siapkan selembar kertas dan tempat yang tenang",
+      "Tumpahkan semua uneg-uneg dan emosi yang terpendam",
+      "Setelah selesai, robek kertas tersebut sebagai simbol pelepasan beban emosi"
+    ],
+    "free_check": {
+      "verified": true,
+      "notes": "Terapi ekspresif mandiri gratis"
+    }
+  },
+  {
+    "id": "psikologi-006",
+    "title": "Uji Sensasi Mindfulness Makan 1 Butir Makanan",
+    "description": "Ambil satu kismis, kacang, atau biskuit kecil. Amati tekstur, aroma, dan kunyah sangat perlahan selama 2 menit penuh.",
+    "categories": [
+      "psikologi"
+    ],
+    "rarity": "common",
+    "xp": 10,
+    "coins": 5,
+    "duration_min": 5,
+    "social": "solo",
+    "place": "indoor",
+    "device": "none",
+    "needs_internet": false,
+    "difficulty": "easy",
+    "steps": [
+      "Ambil 1 butir camilan kecil yang ada di dapur",
+      "Jangan langsung telan: perhatikan aroma dan bentuknya selama 30 detik",
+      "Kunyah perlahan dan rasakan lapisan rasanya dengan perhatian penuh"
+    ],
+    "free_check": {
+      "verified": true,
+      "notes": "Latihan sensorik mindfulness sederhana"
+    }
+  },
+  {
+    "id": "psikologi-007",
+    "title": "Analisis Lingkaran Kendali (Circle of Control)",
+    "description": "Gambar 2 lingkaran konsentris. Lingkaran dalam = hal yang bisa kamu kontrol. Lingkaran luar = hal di luar kendalimu.",
+    "categories": [
+      "psikologi"
+    ],
+    "rarity": "epic",
+    "xp": 50,
+    "coins": 20,
+    "duration_min": 15,
+    "social": "solo",
+    "place": "indoor",
+    "device": "none",
+    "needs_internet": false,
+    "difficulty": "medium",
+    "steps": [
+      "Gambar lingkaran besar dan lingkaran kecil di dalamnya",
+      "Tulis hal di luar kendali di lingkaran luar (macet, cuaca, omongan orang)",
+      "Tulis hal dalam kendalimu di lingkaran dalam (reaksi, usaha, waktu tidur)",
+      "Fokuskan energi 100% hanya pada isi lingkaran dalam"
+    ],
+    "free_check": {
+      "verified": true,
+      "notes": "Kerangka stoikisme & psikologi kognitif"
+    }
+  },
+  {
+    "id": "psikologi-008",
+    "title": "Jurnal Body Scan 7 Menit dari Ujung Kepala ke Kaki",
+    "description": "Duduk santai di kursi, pindahkan perhatian mentalmu perlahan dari dahi, rahang, bahu, perut, hingga ujung jemari kaki.",
+    "categories": [
+      "psikologi"
+    ],
+    "rarity": "common",
+    "xp": 10,
+    "coins": 5,
+    "duration_min": 10,
+    "social": "solo",
+    "place": "indoor",
+    "device": "none",
+    "needs_internet": false,
+    "difficulty": "easy",
+    "steps": [
+      "Pejamkan mata dan atur napas normal",
+      "Perhatikan apakah rahangmu sedang mengeras atau bahumu sedang tegang",
+      "Keluarkan napas sambil sengaja mengendurkan otot yang tegang tersebut"
+    ],
+    "free_check": {
+      "verified": true,
+      "notes": "Relaksasi somatik gratis"
+    }
+  },
+  {
+    "id": "psikologi-009",
+    "title": "Latihan 'Reframing Pikiran': Ubah 'Harus' Jadi 'Bisa'",
+    "description": "Tuliskan 3 kalimat keluhan 'Aku harus...' lalu ubah kalimatnya menjadi 'Aku memilih untuk...' atau 'Aku berkesempatan untuk...'.",
+    "categories": [
+      "psikologi"
+    ],
+    "rarity": "rare",
+    "xp": 25,
+    "coins": 10,
+    "duration_min": 10,
+    "social": "solo",
+    "place": "indoor",
+    "device": "none",
+    "needs_internet": false,
+    "difficulty": "easy",
+    "steps": [
+      "Tulis keluhanmu (misal: 'Aku harus bangun pagi besok')",
+      "Ubah sudut pandangnya ('Aku bisa bangun pagi untuk punya waktu tenang sendiri')",
+      "Amati bagaimana pergeseran kata mengubah energimu"
+    ],
+    "free_check": {
+      "verified": true,
+      "notes": "Teknik linguistik kognitif mandiri"
+    }
+  },
+  {
+    "id": "psikologi-010",
+    "title": "Petakan 'Energi Vampir' vs 'Pengisi Daya' Mingguanmu",
+    "description": "Identifikasi 3 aktivitas yang menguras energimu tanpa hasil, dan 3 aktivitas yang membuatmu kembali bersemangat.",
+    "categories": [
+      "psikologi"
+    ],
+    "rarity": "legendary",
+    "xp": 100,
+    "coins": 40,
+    "duration_min": 15,
+    "social": "solo",
+    "place": "indoor",
+    "device": "none",
+    "needs_internet": false,
+    "difficulty": "medium",
+    "steps": [
+      "Bagi kertas menjadi kolom (+) Charger dan (-) Drainer",
+      "Isi masing-masing minimal 3 hal konkret berdasarkan pengalaman seminggu ini",
+      "Buat komitmen untuk mengurangi durasi salah satu Drainer mulai besok"
+    ],
+    "free_check": {
+      "verified": true,
+      "notes": "Manajemen energi mental gratis"
+    }
+  },
+  {
+    "id": "matematika-005",
+    "title": "Pecahkan Teka-Teki Timbangan 8 Bola Logika",
+    "description": "Ada 8 bola, 1 bola lebih berat dari lainnya. Dengan timbangan neraca dua lengan, temukan bola terberat hanya dalam 2 kali penimbangan!",
+    "categories": [
+      "matematika"
+    ],
+    "rarity": "rare",
+    "xp": 25,
+    "coins": 10,
+    "duration_min": 15,
+    "social": "solo",
+    "place": "indoor",
+    "device": "none",
+    "needs_internet": false,
+    "difficulty": "medium",
+    "steps": [
+      "Petakan solusinya: bagi 8 bola menjadi kelompok 3, 3, dan 2",
+      "Timbang 3 vs 3. Jika seimbang, bola berat ada di kelompok 2",
+      "Jika tidak seimbang, timbang 1 vs 1 dari kelompok yang berat!",
+      "Catat alur logika pemecahannya di kertas"
+    ],
+    "free_check": {
+      "verified": true,
+      "notes": "Teka-teki nalar murni"
+    }
+  },
+  {
+    "id": "matematika-006",
+    "title": "Hitung Hari Kelahiran Sederhana (Algoritma Doomsday)",
+    "description": "Pelajari trik nalar untuk mengetahui hari apa tanggal tertentu dalam sejarah hanya dengan perhitungan aritmatika modulo 7.",
+    "categories": [
+      "matematika"
+    ],
+    "rarity": "epic",
+    "xp": 50,
+    "coins": 20,
+    "duration_min": 20,
+    "social": "solo",
+    "place": "indoor",
+    "device": "none",
+    "needs_internet": false,
+    "difficulty": "medium",
+    "steps": [
+      "Pahami konsep bahwa 1 minggu = 7 hari (operasi kelipatan 7)",
+      "Cari tahu hari jangkar tahun ini (misal: 4/4, 6/6, 8/8, 10/10 selalu jatuh di hari yang sama!)",
+      "Tebak hari kelahiranmu menggunakan jarak dari tanggal jangkar"
+    ],
+    "free_check": {
+      "verified": true,
+      "notes": "Teori bilangan mental math gratis"
+    }
+  },
+  {
+    "id": "matematika-007",
+    "title": "Eksplorasi Kotak Ajaib 3x3 (Magic Square)",
+    "description": "Isi kotak 3x3 dengan angka 1 sampai 9 sedemikian rupa sehingga jumlah setiap baris, kolom, dan diagonalnya selalu sama dengan 15.",
+    "categories": [
+      "matematika"
+    ],
+    "rarity": "common",
+    "xp": 10,
+    "coins": 5,
+    "duration_min": 10,
+    "social": "solo",
+    "place": "indoor",
+    "device": "none",
+    "needs_internet": false,
+    "difficulty": "easy",
+    "steps": [
+      "Gambar grid 3x3 di kertas",
+      "Letakkan angka 5 tepat di kotak tengah",
+      "Coba pasangkan angka genap di sudut dan angka ganjil di sisi hingga semua baris bernilai 15"
+    ],
+    "free_check": {
+      "verified": true,
+      "notes": "Puzzle matematika klasik"
+    }
+  },
+  {
+    "id": "matematika-008",
+    "title": "Eksperimen Peluang Koin: Lempar 30 Kali dan Catat Distribusi",
+    "description": "Ambil 1 koin logam, lempar 30 kali dan catat frekuensi Angka vs Gambar. Buktikan Hukum Bilangan Besar (Law of Large Numbers).",
+    "categories": [
+      "matematika"
+    ],
+    "rarity": "common",
+    "xp": 10,
+    "coins": 5,
+    "duration_min": 10,
+    "social": "solo",
+    "place": "indoor",
+    "device": "none",
+    "needs_internet": false,
+    "difficulty": "easy",
+    "steps": [
+      "Buat tabel Angka vs Gambar di kertas",
+      "Lemparkan koin secara adil sebanyak 30 kali",
+      "Hitung persentasenya dan lihat apakah mendekati 50%"
+    ],
+    "free_check": {
+      "verified": true,
+      "notes": "Eksperimen statistik manual"
+    }
+  },
+  {
+    "id": "matematika-009",
+    "title": "Trik Kuadrat Cepat Angka Berakhiran 5",
+    "description": "Hitung kuadrat angka berakhiran 5 dalam 2 detik: untuk 65², kalikan 6 x 7 = 42, lalu tempel 25 di belakangnya = 4225!",
+    "categories": [
+      "matematika"
+    ],
+    "rarity": "rare",
+    "xp": 25,
+    "coins": 10,
+    "duration_min": 5,
+    "social": "solo",
+    "place": "indoor",
+    "device": "none",
+    "needs_internet": false,
+    "difficulty": "easy",
+    "steps": [
+      "Pahami rumusnya: n5² = (n * (n+1)) disambung 25",
+      "Coba hitung: 25² (2x3 = 6 -> 625)",
+      "Coba hitung: 85² (8x9 = 72 -> 7225)",
+      "Coba 3 soal buatanmu sendiri"
+    ],
+    "free_check": {
+      "verified": true,
+      "notes": "Aritmatika cepat Vedic math"
+    }
+  },
+  {
+    "id": "matematika-010",
+    "title": "Pecahkan Teka-Teki Menara Hanoi 4 Cakram di Meja",
+    "description": "Gunakan 4 koin/benda dengan ukuran berbeda. Pindahkan tumpukan dari tiang A ke tiang C tanpa pernah meletakkan cakram besar di atas cakram kecil.",
+    "categories": [
+      "matematika"
+    ],
+    "rarity": "legendary",
+    "xp": 100,
+    "coins": 40,
+    "duration_min": 20,
+    "social": "solo",
+    "place": "indoor",
+    "device": "none",
+    "needs_internet": false,
+    "difficulty": "medium",
+    "steps": [
+      "Buat 3 lingkaran di atas kertas sebagai tiang A, B, dan C",
+      "Tumpuk 4 koin dari yang terbesar di bawah ke terkecil di atas",
+      "Pindahkan seluruh tumpukan ke tiang C dalam langkah minimum 2⁴ - 1 = 15 langkah!"
+    ],
+    "free_check": {
+      "verified": true,
+      "notes": "Logika rekursi klasik"
+    }
+  },
+  {
+    "id": "game-005",
+    "title": "Game Kata Sambung Cepat Berantai (Word Chain)",
+    "description": "Mainkan bersama teman atau lawan dirimu sendiri: sebutkan kata baru yang huruf depannya adalah suku kata atau huruf terakhir kata sebelumnya.",
+    "categories": [
+      "game"
+    ],
+    "rarity": "common",
+    "xp": 10,
+    "coins": 5,
+    "duration_min": 10,
+    "social": "group",
+    "place": "indoor",
+    "device": "none",
+    "needs_internet": false,
+    "difficulty": "easy",
+    "steps": [
+      "Tentukan kata pertama (misal: 'Kucing')",
+      "Orang berikutnya harus menyambung huruf terakhir 'G' (misal: 'Gajah')",
+      "Beri batas waktu 5 detik per giliran"
+    ],
+    "free_check": {
+      "verified": true,
+      "notes": "Game verbal tanpa perlengkapan"
+    }
+  },
+  {
+    "id": "game-006",
+    "title": "Permainan Titik dan Kotak (Dots and Boxes) di Kertas",
+    "description": "Buat grid titik 6x6 di kertas. Tarik garis bergantian menghubungkan dua titik. Siapa yang menutup kotak berhak mengklaim inisialnya.",
+    "categories": [
+      "game"
+    ],
+    "rarity": "rare",
+    "xp": 25,
+    "coins": 10,
+    "duration_min": 15,
+    "social": "group",
+    "place": "indoor",
+    "device": "none",
+    "needs_internet": false,
+    "difficulty": "easy",
+    "steps": [
+      "Bikin pola titik rapi 6x6 di selembar kertas",
+      "Gantian menarik 1 garis horizontal atau vertikal",
+      "Tulis inisial namamu saat menutup kotak ke-4 dan ambil giliran tambahan"
+    ],
+    "free_check": {
+      "verified": true,
+      "notes": "Game strategi kertas pena"
+    }
+  },
+  {
+    "id": "game-007",
+    "title": "Main Game Tebak Gambar (Pictionary) Tanpa Bicara",
+    "description": "Satu orang menggambar satu kata rahasia di kertas dalam 60 detik tanpa boleh bicara atau menulis huruf, yang lain menebak.",
+    "categories": [
+      "game"
+    ],
+    "rarity": "epic",
+    "xp": 50,
+    "coins": 20,
+    "duration_min": 15,
+    "social": "group",
+    "place": "indoor",
+    "device": "none",
+    "needs_internet": false,
+    "difficulty": "easy",
+    "steps": [
+      "Tulis 5 kata rahasia di gulungan kertas kecil",
+      "Ambil 1 gulungan dan mulai gambar di kertas besar",
+      "Tebak bersama dalam batas waktu 1 menit"
+    ],
+    "free_check": {
+      "verified": true,
+      "notes": "Party game analog gratis"
+    }
+  },
+  {
+    "id": "game-008",
+    "title": "Tantangan Juggling 2 Kertas Gumpalan selama 30 Detik",
+    "description": "Remas 2 lembar kertas bekas jadi bola kecil. Coba lemparkan bergantian dari tangan kanan ke kiri tanpa jatuh selama 30 detik.",
+    "categories": [
+      "game"
+    ],
+    "rarity": "common",
+    "xp": 10,
+    "coins": 5,
+    "duration_min": 5,
+    "social": "solo",
+    "place": "indoor",
+    "device": "none",
+    "needs_internet": false,
+    "difficulty": "easy",
+    "steps": [
+      "Buat 2 bola kertas seukuran kepalan tangan kecil",
+      "Lemparkan bola 1 melengkung ke atas, saat bola 1 di puncak, lempar bola 2",
+      "Tangkap bola 1 dengan tangan lainnya dan teruskan ritmenya"
+    ],
+    "free_check": {
+      "verified": true,
+      "notes": "Melatih koordinasi motorik tangan mata"
+    }
+  },
+  {
+    "id": "game-009",
+    "title": "Game Tebak Siapa Aku (20 Questions)",
+    "description": "Pikirkan satu tokoh nyata atau fiksi. Lawan bicaramu berhak mengajukan maksimal 20 pertanyaan yang hanya bisa dijawab 'Ya' atau 'Tidak'.",
+    "categories": [
+      "game"
+    ],
+    "rarity": "rare",
+    "xp": 25,
+    "coins": 10,
+    "duration_min": 15,
+    "social": "group",
+    "place": "indoor",
+    "device": "none",
+    "needs_internet": false,
+    "difficulty": "easy",
+    "steps": [
+      "Satu orang memikirkan tokoh terkenal di kepalanya",
+      "Penebak mengajukan pertanyaan deduktif: 'Apakah dia masih hidup?', 'Apakah dia musisi?'",
+      "Hitung mundur hingga maksimal 20 pertanyaan"
+    ],
+    "free_check": {
+      "verified": true,
+      "notes": "Game deduksi verbal klasik"
+    }
+  },
+  {
+    "id": "game-010",
+    "title": "Tantangan Speedrun Sudoku Mudah di Browser",
+    "description": "Buka situs sudoku publik gratis, pilih tingkat Easy, dan selesaikan dalam waktu tercepat yang bisa kamu catat.",
+    "categories": [
+      "game"
+    ],
+    "rarity": "legendary",
+    "xp": 100,
+    "coins": 40,
+    "duration_min": 15,
+    "social": "solo",
+    "place": "indoor",
+    "device": "phone",
+    "needs_internet": true,
+    "difficulty": "medium",
+    "steps": [
+      "Buka web sudoku gratisan di HP",
+      "Pilih tingkat pemula",
+      "Fokus isi kotak tanpa melakukan tebakan acak"
+    ],
+    "free_check": {
+      "verified": true,
+      "notes": "Situs game logika publik gratis"
+    }
+  },
+  {
+    "id": "kreatif-005",
+    "title": "Bikin Kolase Tipografi dari Potongan Judul Brosur",
+    "description": "Gunting kata-kata menarik dari koran atau selebaran bekas, susun ulang di selembar kertas membentuk kalimat motivasi unik.",
+    "categories": [
+      "kreatif"
+    ],
+    "rarity": "rare",
+    "xp": 25,
+    "coins": 10,
+    "duration_min": 20,
+    "social": "solo",
+    "place": "indoor",
+    "device": "none",
+    "needs_internet": false,
+    "difficulty": "easy",
+    "steps": [
+      "Kumpulkan selebaran iklan atau majalah bekas",
+      "Gunting 5 sampai 10 kata dengan jenis huruf berbeda",
+      "Tempelkan dengan lem kertas membentuk slogan karyamu"
+    ],
+    "free_check": {
+      "verified": true,
+      "notes": "Kolase seni daur ulang kertas"
+    }
+  },
+  {
+    "id": "kreatif-006",
+    "title": "Buat Peta Fiksi 'Pulau Pribadi' Lengkap dengan Landmark",
+    "description": "Gambar peta sebuah pulau khayalan di kertas. Beri nama teluk, gunung, dan benteng rahasia sesuai imajinasimu.",
+    "categories": [
+      "kreatif"
+    ],
+    "rarity": "common",
+    "xp": 10,
+    "coins": 5,
+    "duration_min": 15,
+    "social": "solo",
+    "place": "indoor",
+    "device": "none",
+    "needs_internet": false,
+    "difficulty": "easy",
+    "steps": [
+      "Gambar garis pantai pulau bergelombang di tengah kertas",
+      "Tambahkan ikon gunung, hutan, dan sungai",
+      "Beri nama lokasi yang unik: 'Teluk Kopi Hangat', 'Puncak Santai'"
+    ],
+    "free_check": {
+      "verified": true,
+      "notes": "World-building ilustratif manual"
+    }
+  },
+  {
+    "id": "kreatif-007",
+    "title": "Coba Teknik Blind Contour Drawing Wajahmu Sendiri",
+    "description": "Bercermin, lalu gambar wajahmu di kertas TANPA sekalipun melihat ke arah kertas sampai gambarnya selesai!",
+    "categories": [
+      "kreatif"
+    ],
+    "rarity": "epic",
+    "xp": 50,
+    "coins": 20,
+    "duration_min": 10,
+    "social": "solo",
+    "place": "indoor",
+    "device": "none",
+    "needs_internet": false,
+    "difficulty": "easy",
+    "steps": [
+      "Duduk di depan cermin dengan kertas dan pulpen di pangkuan",
+      "Arahkan mata 100% ke pantulan cermin",
+      "Gerakkan tangan menggambar kontur mata, hidung, bibir tanpa melirik ke kertas",
+      "Lihat hasil akhirnya yang abstrak dan penuh kejutan"
+    ],
+    "free_check": {
+      "verified": true,
+      "notes": "Metode latihan seni rupa klasik"
+    }
+  },
+  {
+    "id": "kreatif-008",
+    "title": "Menulis Paragraf Deskripsi Ruangan Menggunakan 5 Indra",
+    "description": "Deskripsikan kamarmu sekarang tapi wajib melibatkan: apa yang terlihat, terdengar, tercium, terasa di kulit, dan dirasakan di lidah.",
+    "categories": [
+      "kreatif"
+    ],
+    "rarity": "common",
+    "xp": 10,
+    "coins": 5,
+    "duration_min": 10,
+    "social": "solo",
+    "place": "indoor",
+    "device": "none",
+    "needs_internet": false,
+    "difficulty": "easy",
+    "steps": [
+      "Buka notes atau buku catatan",
+      "Tulis 1 paragraf pendek (4-5 kalimat)",
+      "Pastikan setiap indera memiliki representasi kata konkret"
+    ],
+    "free_check": {
+      "verified": true,
+      "notes": "Latihan creative writing sensory"
+    }
+  },
+  {
+    "id": "kreatif-009",
+    "title": "Desain Logo Personal Monogram Inisial Namamu",
+    "description": "Ambil inisial huruf nama depan dan belakangmu, gabungkan kedua huruf tersebut menjadi satu simbol logo elegan di kertas.",
+    "categories": [
+      "kreatif"
+    ],
+    "rarity": "rare",
+    "xp": 25,
+    "coins": 10,
+    "duration_min": 15,
+    "social": "solo",
+    "place": "indoor",
+    "device": "none",
+    "needs_internet": false,
+    "difficulty": "medium",
+    "steps": [
+      "Tulis 2 huruf inisialmu dalam berbagai gaya (balok, miring, kursif)",
+      "Eksplorasi titik potong di mana kedua huruf bisa saling menyatu",
+      "Tebalkan sketsa terbaik dengan pulpen hitam"
+    ],
+    "free_check": {
+      "verified": true,
+      "notes": "Eksplorasi desain grafis manual"
+    }
+  },
+  {
+    "id": "kreatif-010",
+    "title": "Tulis Pantun Nasihat Lucu 4 Bait untuk Media Sosial",
+    "description": "Ciptakan pantun dengan sajak a-b-a-b yang mengangkat fenomena kehidupan sehari-hari (misal: rebahan, tanggal tua, atau tugas).",
+    "categories": [
+      "kreatif"
+    ],
+    "rarity": "legendary",
+    "xp": 100,
+    "coins": 40,
+    "duration_min": 15,
+    "social": "solo",
+    "place": "indoor",
+    "device": "phone",
+    "needs_internet": false,
+    "difficulty": "medium",
+    "steps": [
+      "Tentukan pesan inti atau lelucon yang ingin disampaikan",
+      "Buat baris 3 dan 4 terlebih dahulu sebagai isi",
+      "Rancang baris 1 dan 2 sebagai sampiran dengan rima akhir yang pas"
+    ],
+    "free_check": {
+      "verified": true,
+      "notes": "Sastra lisan Nusantara tanpa biaya"
+    }
+  },
+  {
+    "id": "fisik-005",
+    "title": "Latihan Keseimbangan Satu Kaki (Flamingo Pose)",
+    "description": "Berdiri dengan 1 kaki, angkat kaki lainnya setinggi lutut. Tahan selama 45 detik di tiap kaki untuk memperkuat otot stabilisator pergelangan.",
+    "categories": [
+      "fisik"
+    ],
+    "rarity": "common",
+    "xp": 10,
+    "coins": 5,
+    "duration_min": 5,
+    "social": "solo",
+    "place": "indoor",
+    "device": "none",
+    "needs_internet": false,
+    "difficulty": "easy",
+    "steps": [
+      "Berdiri tegak di permukaan datar tanpa alas kaki",
+      "Fokuskan pandangan pada satu titik diam di depanmu",
+      "Angkat kaki kanan dan tahan selama 45 detik, lalu ganti kaki kiri"
+    ],
+    "free_check": {
+      "verified": true,
+      "notes": "Latihan propriosepsi mandiri"
+    }
+  },
+  {
+    "id": "fisik-006",
+    "title": "Sesi Peregangan Pergelangan Tangan dan Jari (Anti-Carpal)",
+    "description": "Bagi yang sering mengetik atau memegang HP: regangkan pergelangan tangan ke atas dan ke bawah untuk melancarkan sirkulasi darah.",
+    "categories": [
+      "fisik"
+    ],
+    "rarity": "common",
+    "xp": 10,
+    "coins": 5,
+    "duration_min": 5,
+    "social": "solo",
+    "place": "indoor",
+    "device": "none",
+    "needs_internet": false,
+    "difficulty": "easy",
+    "steps": [
+      "Luruskan satu tangan ke depan dengan telapak menghadap depan",
+      "Tarik lembut jari-jari ke arah tubuh dengan tangan lain, tahan 15 detik",
+      "Balikkan telapak menghadap ke bawah dan ulangi peregangan"
+    ],
+    "free_check": {
+      "verified": true,
+      "notes": "Ergonomi fisik gratis"
+    }
+  },
+  {
+    "id": "fisik-007",
+    "title": "30 Kali Jumping Jacks Cepat di Kamar",
+    "description": "Naikkan denyut jantung dan buang kantuk dalam 60 detik dengan gerakan lompat tepuk tangan klasik.",
+    "categories": [
+      "fisik"
+    ],
+    "rarity": "rare",
+    "xp": 25,
+    "coins": 10,
+    "duration_min": 5,
+    "social": "solo",
+    "place": "indoor",
+    "device": "none",
+    "needs_internet": false,
+    "difficulty": "easy",
+    "steps": [
+      "Pastikan ruangan di sekitarmu bebas dari benda tajam",
+      "Lompat dengan kaki melebar sambil menepuk tangan di atas kepala",
+      "Lakukan sebanyak 30 repetisi ritmis"
+    ],
+    "free_check": {
+      "verified": true,
+      "notes": "Kalisthenics kardio kilat"
+    }
+  },
+  {
+    "id": "fisik-008",
+    "title": "Tantangan Wall Sit 45 Detik Membakar Paha",
+    "description": "Sandarkan punggung ke dinding, turunkan posisi tubuh seperti duduk di kursi tak terlihat dengan sudut lutut 90 derajat.",
+    "categories": [
+      "fisik"
+    ],
+    "rarity": "epic",
+    "xp": 50,
+    "coins": 20,
+    "duration_min": 5,
+    "social": "solo",
+    "place": "indoor",
+    "device": "none",
+    "needs_internet": false,
+    "difficulty": "medium",
+    "steps": [
+      "Cari dinding kosong dan sandarkan punggung rata",
+      "Geser kaki ke depan hingga lutut membentuk sudut siku 90 derajat",
+      "Tahan posisi ini selama 45 detik sambil mengatur napas stabil"
+    ],
+    "free_check": {
+      "verified": true,
+      "notes": "Latihan isometrik kaki gratis"
+    }
+  },
+  {
+    "id": "fisik-009",
+    "title": "Jalan Cepat Naik Turun Tangga 5 Putaran",
+    "description": "Manfaatkan tangga rumah atau kantor untuk kardio ringan pembakar kalori tanpa perlu treadmill.",
+    "categories": [
+      "fisik"
+    ],
+    "rarity": "rare",
+    "xp": 25,
+    "coins": 10,
+    "duration_min": 10,
+    "social": "solo",
+    "place": "indoor",
+    "device": "none",
+    "needs_internet": false,
+    "difficulty": "medium",
+    "steps": [
+      "Gunakan alas kaki atau sandal karet yang tidak licin",
+      "Naik tangga dengan langkah mantap menggunakan dorongan tumit",
+      "Turun perlahan untuk menjaga sendi lutut, ulangi 5 kali siklus"
+    ],
+    "free_check": {
+      "verified": true,
+      "notes": "Pemanfaatan fasilitas fisik yang ada"
+    }
+  },
+  {
+    "id": "fisik-010",
+    "title": "Sesi Yoga Pose Anak (Child's Pose) & Kucing-Sapi 5 Menit",
+    "description": "Lepaskan beban tulang belakang dengan transisi pose yoga restorative di lantai beralas karpet.",
+    "categories": [
+      "fisik"
+    ],
+    "rarity": "legendary",
+    "xp": 100,
+    "coins": 40,
+    "duration_min": 10,
+    "social": "solo",
+    "place": "indoor",
+    "device": "none",
+    "needs_internet": false,
+    "difficulty": "easy",
+    "steps": [
+      "Duduk berlutut di atas karpet, rentangkan tangan ke depan hingga dahi menempel lantai (Child's Pose, 2 menit)",
+      "Pindah ke posisi merangkak, lengkungkan punggung ke atas dan ke bawah bergantian (Cat-Cow, 3 menit)",
+      "Rasakan seluruh otot tulang belakang menjadi lega"
+    ],
+    "free_check": {
+      "verified": true,
+      "notes": "Yoga restorative mandiri gratis"
+    }
+  },
+  {
+    "id": "sosial-005",
+    "title": "Ucapkan Terima Kasih Spesifik ke Orang yang Membantu Hari Ini",
+    "description": "Alih-alih cuma bilang 'makasih', ucapkan dengan alasan konkret: 'Terima kasih ya sudah bantu beresin meja tadi, sangat meringankan tugasku'.",
+    "categories": [
+      "sosial"
+    ],
+    "rarity": "common",
+    "xp": 10,
+    "coins": 5,
+    "duration_min": 5,
+    "social": "group",
+    "place": "indoor",
+    "device": "none",
+    "needs_internet": false,
+    "difficulty": "easy",
+    "steps": [
+      "Pikirkan satu orang di rumah atau rekan kerja yang sudah berinteraksi denganmu",
+      "Identifikasi satu hal spesifik yang dia lakukan",
+      "Sampaikan rasa terima kasihmu secara langsung atau via pesan singkat"
+    ],
+    "free_check": {
+      "verified": true,
+      "notes": "Komunikasi interpersonal empatik gratis"
+    }
+  },
+  {
+    "id": "sosial-006",
+    "title": "Buat Catatan Rekomendasi 3 Lagu/Film untuk Sahabat",
+    "description": "Pikirkan selera seorang sahabatmu. Pilih 3 rekomendasi lagu atau film yang sangat cocok dengan kepribadiannya dan kirimkan daftarnya.",
+    "categories": [
+      "sosial"
+    ],
+    "rarity": "rare",
+    "xp": 25,
+    "coins": 10,
+    "duration_min": 10,
+    "social": "solo",
+    "place": "indoor",
+    "device": "phone",
+    "needs_internet": true,
+    "difficulty": "easy",
+    "steps": [
+      "Pilih 1 orang teman dekat",
+      "Pikirkan lagu atau film yang baru-baru ini kamu nikmati dan relevan dengannya",
+      "Kirim pesan: 'Lagi dengar ini dan kepikiran kamu, coba dengar deh!'"
+    ],
+    "free_check": {
+      "verified": true,
+      "notes": "Berbagi kurasi karya gratis"
+    }
+  },
+  {
+    "id": "sosial-007",
+    "title": "Tanyakan Kabar Tetangga Sebelah Rumah dengan Senyuman",
+    "description": "Sapa tetangga sebelah rumah saat berpapasan di luar pagar, tanyakan kabar sederhana untuk mempererat tali silaturahmi lingkungan.",
+    "categories": [
+      "sosial"
+    ],
+    "rarity": "common",
+    "xp": 10,
+    "coins": 5,
+    "duration_min": 5,
+    "social": "group",
+    "place": "outdoor",
+    "device": "none",
+    "needs_internet": false,
+    "difficulty": "easy",
+    "steps": [
+      "Keluar ke halaman atau teras rumah",
+      "Saat melihat tetangga melintas, lempar senyuman ramah",
+      "Sapa dengan hangat: 'Selamat sore Pak/Bu, sehat selalu ya'"
+    ],
+    "free_check": {
+      "verified": true,
+      "notes": "Etika sosial bertetangga langsung"
+    }
+  },
+  {
+    "id": "sosial-008",
+    "title": "Bikin Tantangan Voting Seru di Status WhatsApp/Instagram",
+    "description": "Buat polling santai yang mengundang debat seru teman: 'Bubur diaduk vs tidak diaduk' atau 'Tim martabak manis vs telur'.",
+    "categories": [
+      "sosial"
+    ],
+    "rarity": "rare",
+    "xp": 25,
+    "coins": 10,
+    "duration_min": 10,
+    "social": "solo",
+    "place": "indoor",
+    "device": "phone",
+    "needs_internet": true,
+    "difficulty": "easy",
+    "steps": [
+      "Buka fitur status atau story di media sosialmu",
+      "Gunakan stiker polling pertanyaan ringan",
+      "Balas komentar atau respons teman yang masuk dengan ramah"
+    ],
+    "free_check": {
+      "verified": true,
+      "notes": "Interaksi sosial digital gratis"
+    }
+  },
+  {
+    "id": "sosial-009",
+    "title": "Tawarkan Bantuan Tanpa Diminta untuk Tugas Rumah Sepele",
+    "description": "Bantu cuci piring yang ada di wastafel, buang sampah keluar, atau bawakan air minum untuk anggota keluargamu.",
+    "categories": [
+      "sosial"
+    ],
+    "rarity": "epic",
+    "xp": 50,
+    "coins": 20,
+    "duration_min": 10,
+    "social": "group",
+    "place": "indoor",
+    "device": "none",
+    "needs_internet": false,
+    "difficulty": "easy",
+    "steps": [
+      "Perhatikan hal kecil di rumah yang bisa dirapikan sekarang",
+      "Kerjakan tanpa banyak bicara atau mengeluh",
+      "Rasakan kepuasan saat melihat rumah sedikit lebih nyaman"
+    ],
+    "free_check": {
+      "verified": true,
+      "notes": "Aksi kebaikan nyata di rumah"
+    }
+  },
+  {
+    "id": "sosial-010",
+    "title": "Tulis Pesan Kejutan 'Aku Bangga Padamu' ke Pasangan/Sahabat",
+    "description": "Kirim pesan menyentuh hati ke orang terpenting dalam hidupmu, apresiasi kegigihan mereka dalam menghadapi masa sulit akhir-akhir ini.",
+    "categories": [
+      "sosial"
+    ],
+    "rarity": "legendary",
+    "xp": 100,
+    "coins": 40,
+    "duration_min": 10,
+    "social": "solo",
+    "place": "indoor",
+    "device": "phone",
+    "needs_internet": true,
+    "difficulty": "medium",
+    "steps": [
+      "Pilih 1 orang yang paling berjuang dalam hidupmu",
+      "Tuliskan 3 kalimat tulus mengapa kamu bangga melihat perjuangannya",
+      "Kirimkan dan biarkan harinya menjadi lebih cerah"
+    ],
+    "free_check": {
+      "verified": true,
+      "notes": "Afirmasi positif antar manusia gratis"
+    }
+  }
+]

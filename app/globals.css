@@ -1,0 +1,235 @@
+@import "tailwindcss";
+
+@theme {
+  --color-bg: var(--bg);
+  --color-surface: var(--surface);
+  --color-surface-2: var(--surface-2);
+  --color-text: var(--text);
+  --color-text-muted: var(--text-muted);
+  --color-border: var(--border);
+  --color-darkline: #503047;
+  --color-primary: var(--primary);
+  --color-primary-contrast: var(--primary-contrast);
+  --color-success: var(--success);
+  --color-warning: var(--warning);
+  --color-danger: var(--danger);
+
+  /* User Custom Palette: Rosy Copper, Muted Olive, Tea Green, White, Blackberry Cream */
+  --color-arcade-purple: #503047; /* Blackberry Cream */
+  --color-arcade-yellow: #C05746; /* Rosy Copper */
+  --color-arcade-pink: #D4705F;   /* Soft Rosy Copper */
+  --color-arcade-mint: #ADC698;   /* Muted Olive */
+  --color-arcade-blue: #8FA87B;   /* Deep Muted Olive */
+  --color-arcade-dark: #503047;   /* Blackberry Cream */
+  --color-arcade-cream: #D0E3C4;  /* Tea Green */
+
+  --color-rarity-common: #8E8EA0;
+  --color-rarity-rare: #ADC698;
+  --color-rarity-epic: #503047;
+  --color-rarity-legendary: #C05746;
+
+  --color-cat-senang: #C05746;
+  --color-cat-self: #ADC698;
+  --color-cat-tech: #8FA87B;
+  --color-cat-psikologi: #503047;
+  --color-cat-matematika: #D4705F;
+  --color-cat-game: #C05746;
+  --color-cat-kreatif: #ADC698;
+  --color-cat-fisik: #8FA87B;
+  --color-cat-sosial: #D4705F;
+
+  --font-display: var(--font-display), system-ui, sans-serif;
+  --font-body: var(--font-body), system-ui, sans-serif;
+  --font-mono: var(--font-mono), monospace;
+
+  --radius-sm: 8px;
+  --radius-md: 14px;
+  --radius-lg: 20px;
+  --radius-xl: 28px;
+  --radius-pill: 9999px;
+}
+
+:root {
+  --bg: #F7FAF5;
+  --surface: #FFFFFF;
+  --surface-2: #EAF2E4;
+  --text: #2D1A27;
+  --text-muted: #6B5465;
+  --border: #503047;
+  --darkline: #503047;
+  --primary: #C05746;
+  --primary-contrast: #FFFFFF;
+  --success: #ADC698;
+  --warning: #C05746;
+  --danger: #A34334;
+  --shadow-color: #503047;
+}
+
+.dark {
+  --bg: #22141F;
+  --surface: #351F30;
+  --surface-2: #482B42;
+  --text: #F4F8F1;
+  --text-muted: #B9A8B6;
+  --border: #6B4361;
+  --darkline: #503047;
+  --primary: #D4705F;
+  --primary-contrast: #FFFFFF;
+  --success: #ADC698;
+  --warning: #E08575;
+  --danger: #E86B5A;
+  --shadow-color: #0E070C;
+}
+
+/* Base Body Styles */
+body {
+  background-color: var(--bg);
+  color: var(--text);
+  font-family: var(--font-body), system-ui, sans-serif;
+  min-height: 100vh;
+  margin: 0;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Subtle Retro Grid / Dot Pattern - Softened to avoid visual competition */
+.bg-arcade-grid {
+  background-image: radial-gradient(rgba(80, 48, 71, 0.08) 1.25px, transparent 1.25px);
+  background-size: 24px 24px;
+  background-color: var(--bg);
+}
+
+.dark .bg-arcade-grid {
+  background-image: radial-gradient(rgba(244, 248, 241, 0.05) 1.25px, transparent 1.25px);
+}
+
+:root .bg-arcade-grid {
+  background-image: radial-gradient(#D0E3C4 1.5px, transparent 1.5px);
+}
+
+.dark .bg-arcade-grid {
+  background-image: radial-gradient(#482B42 1.5px, transparent 1.5px);
+}
+
+/* Neo-Brutalist Hard Retro Shadows with Blackberry Cream Outline */
+.retro-card {
+  border: 2.5px solid #503047;
+  box-shadow: 4px 4px 0px #503047;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.retro-card:hover {
+  transform: translate(-1px, -1px);
+  box-shadow: 5px 5px 0px #503047;
+}
+
+.dark .retro-card {
+  border: 2.5px solid #6B4361;
+  box-shadow: 4px 4px 0px #0E070C;
+}
+
+.retro-btn {
+  border: 2.5px solid #503047;
+  box-shadow: 3px 3px 0px #503047;
+  transition: transform 0.1s ease, box-shadow 0.1s ease;
+}
+
+.retro-btn:hover:not(:disabled) {
+  transform: translate(-1.5px, -1.5px);
+  box-shadow: 4.5px 4.5px 0px #503047;
+}
+
+.retro-btn:active:not(:disabled) {
+  transform: translate(2px, 2px);
+  box-shadow: 1px 1px 0px #503047;
+}
+
+.dark .retro-btn {
+  border: 2.5px solid #6B4361;
+  box-shadow: 3px 3px 0px #0E070C;
+}
+
+/* Rainbow Holographic Animation for Mystery Coin */
+@keyframes holoShift {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.bg-holographic {
+  background: linear-gradient(
+    135deg,
+    #FF6B6B 0%,
+    #F5A524 20%,
+    #2FBF71 40%,
+    #00B8D9 60%,
+    #5B3DF5 80%,
+    #FF5CAA 100%
+  );
+  background-size: 300% 300%;
+  animation: holoShift 6s ease infinite;
+}
+
+/* Legendary Shimmer */
+@keyframes goldShimmer {
+  0% {
+    filter: drop-shadow(0 0 2px rgba(255, 184, 0, 0.4));
+  }
+  50% {
+    filter: drop-shadow(0 0 12px rgba(255, 184, 0, 0.8));
+  }
+  100% {
+    filter: drop-shadow(0 0 2px rgba(255, 184, 0, 0.4));
+  }
+}
+
+.shimmer-gold {
+  animation: goldShimmer 2.5s infinite;
+}
+
+/* Semantic Focus Ring with Rosy Copper */
+:focus-visible {
+  outline: 3px solid #C05746;
+  outline-offset: 3px;
+  border-radius: 6px;
+}
+
+/* Skip link */
+.skip-link {
+  position: absolute;
+  top: -100px;
+  left: 1rem;
+  z-index: 100;
+  background-color: var(--primary);
+  color: var(--primary-contrast);
+  padding: 0.75rem 1.25rem;
+  border-radius: 9999px;
+  border: 2px solid #503047;
+  box-shadow: 3px 3px 0px #503047;
+  font-weight: 700;
+  text-decoration: none;
+  transition: top 0.2s ease-in-out;
+}
+
+.skip-link:focus {
+  top: 1rem;
+}
+
+/* Reduced Motion */
+@media (prefers-reduced-motion: reduce) {
+  *, ::before, ::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+  .bg-holographic {
+    animation: none !important;
+  }
+}
