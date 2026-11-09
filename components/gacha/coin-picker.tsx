@@ -4,7 +4,7 @@ import React from "react";
 import { CategoryId, CategoryMeta } from "@/types/activity";
 import { CATEGORIES } from "@/data/categories";
 import { CategoryIcon } from "@/components/category-icon";
-import { Shuffle, Check } from "lucide-react";
+import { Shuffle, Check, CheckCheck, RotateCcw } from "lucide-react";
 
 interface CoinPickerProps {
   selectedCategories: CategoryId[];
@@ -23,6 +23,9 @@ export function CoinPicker({
   onSelectAll,
   onClear,
 }: CoinPickerProps) {
+  const isAllSelected = selectedCategories.length === CATEGORIES.length && !isMysterySelected;
+  const hasSelection = selectedCategories.length > 0 || isMysterySelected;
+
   return (
     <div className="w-full space-y-4">
       {/* Header Bar */}
@@ -36,22 +39,40 @@ export function CoinPicker({
           </p>
         </div>
 
-        {/* Quick actions */}
-        <div className="flex items-center gap-2 text-xs font-mono font-bold self-start sm:self-auto">
+        {/* Quick actions: Tactile Arcade Action Toolbar */}
+        <div className="inline-flex items-center bg-surface border-2 border-darkline rounded-lg shadow-retro-xs p-0.5 divide-x-2 divide-darkline self-start sm:self-auto select-none">
           <button
             type="button"
             onClick={onSelectAll}
-            className="px-2.5 py-1 rounded-md text-text-muted hover:text-text hover:bg-surface-2 transition-colors cursor-pointer"
+            className={`px-2.5 py-1 text-xs font-mono font-bold transition-all cursor-pointer flex items-center gap-1.5 active:scale-95 rounded-l-md ${
+              isAllSelected
+                ? "bg-arcade-yellow text-white font-black shadow-inner"
+                : "text-text hover:bg-surface-2"
+            }`}
+            title={isAllSelected ? "Semua 9 koin mood sedang terpilih" : "Pilih seluruh 9 koin mood"}
           >
-            Pilih Semua
+            <CheckCheck
+              size={13}
+              className={`shrink-0 ${
+                isAllSelected ? "text-white stroke-[2.5]" : "text-arcade-purple dark:text-arcade-yellow"
+              }`}
+            />
+            <span>{isAllSelected ? "Semua Terpilih" : "Pilih Semua"}</span>
           </button>
-          <span className="text-border">|</span>
+
           <button
             type="button"
             onClick={onClear}
-            className="px-2.5 py-1 rounded-md text-text-muted hover:text-danger hover:bg-danger/10 transition-colors cursor-pointer"
+            disabled={!hasSelection}
+            className={`px-2.5 py-1 text-xs font-mono font-bold transition-all flex items-center gap-1.5 rounded-r-md ${
+              hasSelection
+                ? "text-text-muted hover:text-danger hover:bg-danger/10 cursor-pointer active:scale-95"
+                : "text-text-muted/40 cursor-not-allowed opacity-50"
+            }`}
+            title="Kosongkan pilihan koin"
           >
-            Reset Koin
+            <RotateCcw size={12} className="shrink-0" />
+            <span>Reset Koin</span>
           </button>
         </div>
       </div>
