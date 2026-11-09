@@ -232,3 +232,72 @@ export function playArcadeWrongSound(soundMuted: boolean) {
 export function playArcadeWinSound(soundMuted: boolean) {
   playCapsuleOpenSound(soundMuted);
 }
+
+/** Cute playful Pip Mascot voice boops (3 alternating chirps/squeaks) */
+let pipSoundVariant = 0;
+
+export function playPipBoopSound() {
+  if (typeof window === "undefined") return;
+  const ctx = getAudioContext();
+  if (!ctx) return;
+
+  const now = ctx.currentTime;
+  const variant = pipSoundVariant % 3;
+  pipSoundVariant++;
+
+  if (variant === 0) {
+    // "Peep-up!" — cute rising bubble chirp
+    const osc = ctx.createOscillator();
+    const gain = ctx.createGain();
+
+    osc.type = "sine";
+    osc.frequency.setValueAtTime(950, now);
+    osc.frequency.exponentialRampToValueAtTime(1550, now + 0.08);
+
+    gain.gain.setValueAtTime(0.14, now);
+    gain.gain.exponentialRampToValueAtTime(0.001, now + 0.14);
+
+    osc.connect(gain);
+    gain.connect(ctx.destination);
+
+    osc.start(now);
+    osc.stop(now + 0.14);
+  } else if (variant === 1) {
+    // "Bip-bip!" — double cheerful robot squeak
+    [0, 0.055].forEach((offset, idx) => {
+      const osc = ctx.createOscillator();
+      const gain = ctx.createGain();
+
+      osc.type = "sine";
+      const freq = idx === 0 ? 820 : 1380;
+      osc.frequency.setValueAtTime(freq, now + offset);
+
+      gain.gain.setValueAtTime(0.12, now + offset);
+      gain.gain.exponentialRampToValueAtTime(0.001, now + offset + 0.06);
+
+      osc.connect(gain);
+      gain.connect(ctx.destination);
+
+      osc.start(now + offset);
+      osc.stop(now + offset + 0.065);
+    });
+  } else {
+    // "Boing-spring!" — bouncy high spring hop
+    const osc = ctx.createOscillator();
+    const gain = ctx.createGain();
+
+    osc.type = "triangle";
+    osc.frequency.setValueAtTime(650, now);
+    osc.frequency.exponentialRampToValueAtTime(1250, now + 0.06);
+    osc.frequency.exponentialRampToValueAtTime(1100, now + 0.12);
+
+    gain.gain.setValueAtTime(0.15, now);
+    gain.gain.exponentialRampToValueAtTime(0.001, now + 0.15);
+
+    osc.connect(gain);
+    gain.connect(ctx.destination);
+
+    osc.start(now);
+    osc.stop(now + 0.15);
+  }
+}

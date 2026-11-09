@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect } from "react";
 import { motion, AnimatePresence, TargetAndTransition } from "framer-motion";
+import { playPipBoopSound } from "@/lib/sound-effects";
 
 export type PipExpression =
   | "idle"
@@ -107,6 +108,9 @@ export function Pip({
     const randomMsg =
       available[Math.floor(Math.random() * available.length)] || FUN_CLICK_DIALOGUES[0];
     setClickDialogue(randomMsg);
+
+    // Trigger cute playful voice boop sound!
+    playPipBoopSound();
 
     // Trigger next energetic acrobatic trick (Salto, Lompat, Goyang, Terbang)
     setCurrentTrick((prev) => (prev + 1) % TRICK_ANIMATIONS.length);
